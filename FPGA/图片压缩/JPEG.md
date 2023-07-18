@@ -1,0 +1,105 @@
+JPEG会分析图片的各个部分 找到并删除人眼不易察觉的元素
+
+![[Pasted image 20230706162234.png]]
+
+## Color Space Conversion
+
+原始图像由像素组成 ，每个像素都有红绿蓝的成分，每个颜色都有一个从0-255的值
+，RGB值组合起来形成单一像素的颜色
+
+在色彩空间转换的过程中，算法会根据每个像素都有的RGB的值，算出三个新的数值：亮度luminance 蓝色色度bule chrominance和红色色度 red chrominance即 Y Cr Cb  
+![[Pasted image 20230706163849.png]]
+
+```python
+
+def bgr_to_ycrcb(one):
+	one = one.astype('float32')
+	(B, G, R) = cv2.split(one)
+
+	Y = 0.299 * R + 0.587 * G + 0.114 * B
+	Cr = (R - Y) * 0.713 + 0.5
+	Cb = (B - Y) * 0.564 + 0.5
+
+	return cv2.merge([Y, Cr, Cb])
+	# return numpy.stack([Y, Cr, Cb], axis=2)
+
+
+def ycrcb_to_bgr(one):
+	one = one.astype('float32')
+	Y, Cr, Cb = cv2.split(one)
+
+	B = (Cb - 0.5) * 1. / 0.564 + Y
+	R = (Cr - 0.5) * 1. / 0.713 + Y
+	G = 1. / 0.587 * (Y - 0.299 * R - 0.114 * B)
+
+	return cv2.merge([B, G, R])
+	# return numpy.stack([B, G, R], axis=2)
+```
+
+
+转换过程是可逆的 没有删除任何数据
+
+## Chrominance Downsampling
+
+将蓝色和红色色度分量层上的像素按照2 * 2像素划分为一个区块，然后计算每个区块色度平均值，并删掉重复信息  ，然后缩小图像，使得含有一个平均值的由四个像素组成的区块只占一个像素的空间 ， 因此哪些眼睛不易感知的红蓝色度信息的量被缩减为1/4，而亮度保持不变 
+
+当查看图片时，两个色度层会放大到跟亮度层一样大小，然后做YCr_Cb的变换
+
+## Discrete Consine Transform
+
+利用人眼不擅长感知图像中的高频率元素这一事实实现
+
+遍历图像的各个部分，并找到具有高频率的色度或亮度的像素频繁出现的区域 ，然后将这些元素删除 
+![[v2-9a514cdc86177b84fc7f321aa1299fa3_720w.webp]]
+
+### 将整个图像按8 * 8像素划分为区块
+![[Pasted image 20230706170314.png]]
+### 每个像素值-128
+![[Pasted image 20230706170401.png]]
+
+
+### 用下面64张基础图像的组合来重建任何64个像素组成的区块
+![[v2-3cb27aae2d3faa9d250f9ac61daf7378_720w.webp]]
+
+![[Pasted image 20230706171042.png]]
+
+
+DCT不能压缩或缩小图像
+
+
+## Quantization
+
+经DCT后，8 * 8区块变为常数表，对应于每个基础图像的使用情况
+
+将常数表中的各个值除以量化表中的对应值
+
+
+![[Pasted image 20230706173558.png]]
+
+
+量化表右下角的数值比较高，是人眼不擅长感知的高频数据
+左上角数值小，是人眼更易区分的数据
+
+形成一个只有几个数字和大量0的区块，实际上是扔掉了人眼无法感知的数据
+
+![[Pasted image 20230706173842.png]]
+
+
+整个过程用到一张基础表 两张量化表
+
+
+## Run Length and Huffman Encoding
+
+![[Pasted image 20230706174238.png]]
+
+
+##
+
+改变压缩质量-->改变量化表的值
+
+![[Pasted image 20230706175136.png]]
+
+## Shortcoming
+
+在压缩矢量图方面表现不佳
+

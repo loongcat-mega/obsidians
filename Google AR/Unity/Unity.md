@@ -1,0 +1,172 @@
+1. 素材导入
+2. 脚本的添加与绑定->拖拽
+3. 碰撞箱
+4. 场景的添加与切换
+5. 场景的淡出淡入
+6. 图片与脚本的绑定
+7. 角色与场景的碰撞器
+8. 场景的延续
+9. x y 坐标轴？
+10. 物体的上下移动
+11. 摄像机跟随
+12. 限制摄像机视野范围
+
+## 组件
+
+![[Pasted image 20230702151256.png]]
+![[Pasted image 20230527144622.png]]
+## Material
+![[Pasted image 20230702151324.png]]
+![[Pasted image 20230702151650.png]]
+
+
+
+![[Pasted image 20230702151714.png]]
+![[Pasted image 20230702151724.png]]
+
+
+## Camera
+
+![[Pasted image 20230702151847.png]]
+![[Pasted image 20230702151756.png]]
+![[Pasted image 20230702151905.png]]
+![[Pasted image 20230702152018.png]]
+![[Pasted image 20230702152052.png]]
+
+
+
+
+## GI
+
+![[Pasted image 20230702152225.png]]
+![[Pasted image 20230702152214.png]]
+
+### 直接光照
+
+![[Pasted image 20230702152245.png]]
+![[Pasted image 20230702152254.png]]
+![[Pasted image 20230702152549.png]]
+
+### 环境光照
+
+![[Pasted image 20230702152906.png]]
+
+### 反射光
+
+![[Pasted image 20230702153209.png]]
+
+
+
+
+
+
+
+
+
+绘制图片的代码，都要写在OnGUI方法中
+
+
+
+
+保存场景布局
+
+
+
+
+一个场景Scene可以包含多种不同的游戏对象GameObject，每个游戏对象可以由不同功能的组件Component构成
+
+
+
+## Scene
+
+```txt
+Scenes are where you work with content in Unity. They are assets that contain all or part of a game or application. For example, you might build a simple game in a single scene, while for a more complex game, you might use one scene per level, each with its own environments, characters, obstacles, decorations, and UI
+. You can create any number of scenes in a project.
+```
+
+## GameObjects
+
+```txt
+Every object in your game is a GameObject, from characters and collectible items to lights, cameras and special effects. However, a GameObject can’t do anything on its own; you need to give it properties before it can become a character, an environment, or a special effect.
+
+GameObjects are the fundamental objects in Unity that represent characters, props and scenery. They do not accomplish much in themselves but they act as containers for Components, which implement the functionality.
+
+To give a GameObject the properties it needs to become a light, or a tree, or a camera, you need to add components to it. Depending on what kind of object you want to create, you add different combinations of components to a GameObject.
+
+
+A GameObject always has a Transform component attached (to represent position and orientation) and it is not possible to remove this. The other components that give the object its functionality can be added from the editor’s Component menu or from a script. 
+
+```
+
+
+
+
+## 组件
+
+使用 animator 来控制管理角色的动画，audiosource 给游戏对象添加声音，canvas 来绘制二维用户界面，particlesystem 来产生粒子效果
+
+c#脚本update()函数每一帧都会被调起
+
+
+Grid Layout Group : 设置文本框宽高后，新复制的文本框会自动排列在旧文本框的下面
+
+Content Size Fitter : 复制文本框后，旧文本框与新文本框整合为一个，并自动改变宽高
+
+Transform  存储物体的位置，旋转和比例
+
+
+
+## c#脚本
+
+```c#
+
+SceneManager.LoadScene(scene);//场景切换函数，切换至scene场景
+
+GUI.DrawTexture(
+new Rect(0,0,Screen.width,Screen.height),img);//绘制图片
+
+Regidbody.velocity();瞬间给物体一个恒定的速度
+
+Regidbody.addForce();瞬间给物体一个恒定的力，即加速度
+
+
+
+```
+
+
+
+
+
+
+
+# TimeLine
+
+# 有限状态机 FSM
+
+# 寻路算法
+
+- 广度优先搜索
+- 迪杰斯特拉
+- A\*寻路算法
+
+
+
+
+# DOTween
+
+![[Pasted image 20230527104757.png]]
+![[Pasted image 20230526212619.png]]
+- 打击感
+- 打字机 改变字体颜色 物体材质
+- 平滑移动
+- 缩放
+![[Pasted image 20230527105011.png]]
+- 跟随移动
+
+
+# 脱离误区
+
+跟随教程-->脱离教程
+
+发现问题-->解决问题
+             !-->直接寻找答案

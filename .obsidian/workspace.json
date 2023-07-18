@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "4ac89f61d8c31eef",
+    "type": "split",
+    "children": [
+      {
+        "id": "b51478a9b8746b33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f79fd1640d7e0e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "embedded/串行通信协议.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fd5c25c1c2f21fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DateNoteBook/2023-07-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be8811af7305d516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FPGA/图片压缩/JPEG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "530346deffa1e3c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FPGA/图片压缩/PNG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2ec98fa620f5832",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DateNoteBook/2023-07-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39207afb8e0616ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DateNoteBook/2023-07-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31ae6884bb6d6a48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a567d9f8d70e9222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/machine learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac0efda9b42883db",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf13b905ace4e98d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c9a7769c1d49eaf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "infi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "165270320d5c3637",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abc996a4984a76a1",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5079231262207
+  },
+  "right": {
+    "id": "58edbd8714a9e505",
+    "type": "split",
+    "children": [
+      {
+        "id": "d97b6425cc405037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "078897b0c460dce6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb1f24aa0481efb9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c35806c128a925ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git.md"
+              }
+            }
+          },
+          {
+            "id": "56c1794152d31887",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6f4b46cb8695476",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc45e8d018c57776",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 371.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-language-learner:打开查词面板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false
+    }
+  },
+  "active": "31ae6884bb6d6a48",
+  "lastOpenFiles": [
+    "DateNoteBook/2023-07-17.md",
+    "git.md",
+    "Machine Learning/machine learning.md",
+    "embedded/pegasus.md",
+    "embedded/串行通信协议.md",
+    "DateNoteBook/2023-07-07.md",
+    "DateNoteBook/2023-07-04.md",
+    "FPGA/图片压缩/PNG.md",
+    "FPGA/图片压缩/JPEG.md",
+    "Java.md"
+  ]
+}
