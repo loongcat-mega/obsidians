@@ -89,10 +89,12 @@
             "id": "31ae6884bb6d6a48",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "git.md",
-                "staged": false
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -176,6 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "git.md"
+              }
             }
           },
           {
@@ -211,6 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
