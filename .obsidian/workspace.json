@@ -111,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +157,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,18 +173,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "078897b0c460dce6",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "git.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "eb1f24aa0481efb9",
             "type": "leaf",
             "state": {
@@ -198,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "embedded/串行通信协议.md"
               }
             }
           },
@@ -211,31 +199,6 @@
             }
           },
           {
-            "id": "c6f4b46cb8695476",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "git.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "cc45e8d018c57776",
-            "type": "leaf",
-            "state": {
-              "type": "langr-stat",
-              "state": {}
-            }
-          },
-          {
             "id": "67ece52c55168c8e",
             "type": "leaf",
             "state": {
@@ -244,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -261,17 +224,17 @@
       "obsidian-language-learner:单词列表": false
     }
   },
-  "active": "31ae6884bb6d6a48",
+  "active": "f79fd1640d7e0e83",
   "lastOpenFiles": [
+    "Image/Pasted image 20230708201904.png",
+    "embedded/串行通信协议.md",
     "git.md",
     "DateNoteBook/2023-07-17.md",
     "Machine Learning/machine learning.md",
     "embedded/pegasus.md",
-    "embedded/串行通信协议.md",
     "DateNoteBook/2023-07-07.md",
     "DateNoteBook/2023-07-04.md",
     "FPGA/图片压缩/PNG.md",
-    "FPGA/图片压缩/JPEG.md",
-    "Java.md"
+    "FPGA/图片压缩/JPEG.md"
   ]
 }
