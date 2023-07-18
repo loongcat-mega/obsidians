@@ -131,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "infi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,8 +158,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,9 +234,17 @@
               "type": "langr-stat",
               "state": {}
             }
+          },
+          {
+            "id": "67ece52c55168c8e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
