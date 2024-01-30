@@ -41,14 +41,7 @@
       "key": "D"
     }
   ],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "G"
-    }
-  ],
+  "graph:open-local": [],
   "outline:open-for-current": [
     {
       "modifiers": [
@@ -129,6 +122,15 @@
         "Mod"
       ],
       "key": "P"
+    }
+  ],
+  "graph:open": [],
+  "obsidian-pandoc:pandoc-export-docx": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
     }
   ]
 }

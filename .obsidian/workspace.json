@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b51478a9b8746b33",
+        "id": "9ad5c676a073064c",
         "type": "tabs",
         "children": [
           {
-            "id": "f79fd1640d7e0e83",
+            "id": "9f047d1eac3c3d25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "embedded/串行通信协议.md",
+                "file": "Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "9fd5c25c1c2f21fc",
+            "id": "0a1e0d0657d4890f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DateNoteBook/2023-07-04.md",
+                "file": "Linux/utils/正则表达式.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "be8811af7305d516",
+            "id": "42247b9c5534e1fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FPGA/图片压缩/JPEG.md",
+                "file": "Linux/base/ls.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "530346deffa1e3c7",
+            "id": "172503ccc91a0aa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FPGA/图片压缩/PNG.md",
+                "file": "Linux/sys/缓冲区.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "e2ec98fa620f5832",
+            "id": "d6166dca6386fb22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DateNoteBook/2023-07-07.md",
+                "file": "大创/jupyter notebook.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "39207afb8e0616ff",
+            "id": "c49ad86ed8327b00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DateNoteBook/2023-07-17.md",
+                "file": "yuan.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "31ae6884bb6d6a48",
+            "id": "894068b7e0e5aa3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,19 +99,189 @@
             }
           },
           {
-            "id": "a567d9f8d70e9222",
+            "id": "257008c157598647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/machine learning.md",
+                "file": "git/git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65d4116e721e1a22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/sys/驱动.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "effa8606995fc8b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WebServer/Chat/socket.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "247cf72acece93c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WebServer/Chat/聊天软件设计.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c68e3a563552dfa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WebServer/websocket.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ada17cd822d1c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WebServer/Chat/socket.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a9c64e328d65308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/callout.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5e026390262cdcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/awk.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06233239b6623d51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WebServer/fastapi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab85b800be2ee277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/stat.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da57c04fa569895d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/awk.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddc720ae5d8fdfd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/grep.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b56cbb5f8b6b45f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/ce/逆向.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44579cb946558e3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FPGA/视频推拉流/ffmpeg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -130,9 +300,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wc",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -156,13 +326,21 @@
               "type": "langr-search-panel",
               "state": {}
             }
+          },
+          {
+            "id": "76b6c754135664f9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 267.5079231262207
+    "width": 200
   },
   "right": {
     "id": "58edbd8714a9e505",
@@ -173,10 +351,10 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb1f24aa0481efb9",
+            "id": "56c1794152d31887",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "calendar",
               "state": {}
             }
           },
@@ -186,55 +364,70 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "embedded/串行通信协议.md"
+                "file": "git/git.md"
               }
             }
           },
           {
-            "id": "56c1794152d31887",
+            "id": "ac52f8510e8a246b",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "file": "git/git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           },
           {
-            "id": "67ece52c55168c8e",
+            "id": "22fd758c315c2d01",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "outgoing-link",
+              "state": {
+                "file": "git/git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-language-learner:打开查词面板": false,
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-language-learner:打开查词面板": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false
+      "obsidian-language-learner:打开新词面板": true,
+      "obsidian-language-learner:打开统计": true,
+      "obsidian-language-learner:单词列表": true,
+      "darlal-switcher-plus:Open in Headings Mode": true,
+      "darlal-switcher-plus:Open Symbols for the active editor": true
     }
   },
-  "active": "f79fd1640d7e0e83",
+  "active": "257008c157598647",
   "lastOpenFiles": [
-    "Image/Pasted image 20230708201904.png",
-    "embedded/串行通信协议.md",
-    "git.md",
-    "DateNoteBook/2023-07-17.md",
-    "Machine Learning/machine learning.md",
-    "embedded/pegasus.md",
-    "DateNoteBook/2023-07-07.md",
-    "DateNoteBook/2023-07-04.md",
-    "FPGA/图片压缩/PNG.md",
-    "FPGA/图片压缩/JPEG.md"
+    "git/Config.md",
+    "git/git.md",
+    "yuan.md",
+    "python/numpy/Numerical Python的简称.md",
+    "大创/jupyter notebook.md",
+    "大创/版本匹配.md",
+    "FPGA/SSD.md",
+    "FPGA/FPGA.md",
+    "FPGA/”视频“.md",
+    "大创/MCAN.md"
   ]
 }

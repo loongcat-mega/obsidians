@@ -6,7 +6,7 @@
   "native": "zh",
   "foreign": "en",
   "popup_search": true,
-  "function_key": "ctrlKey",
+  "function_key": "disable",
   "dictionaries": {
     "youdao": {
       "enable": true,
@@ -25,7 +25,7 @@
       "priority": 4
     }
   },
-  "dict_height": "250px",
+  "dict_height": "1000px",
   "db_name": "WordDB",
   "word_database": "",
   "review_database": "",

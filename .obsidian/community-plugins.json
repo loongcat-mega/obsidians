@@ -1,14 +1,17 @@
 [
   "better-word-count",
   "obsidian-enhancing-mindmap",
-  "cmenu-plugin",
   "calendar",
   "obsidian-pandoc",
   "quick-explorer",
-  "remember-cursor-position",
   "obsidian-outliner",
   "obsidian-admonition",
   "obsidian-language-learner",
   "table-editor-obsidian",
-  "obsidian-git"
+  "cmenu-plugin",
+  "obsidian-contextual-typography",
+  "darlal-switcher-plus",
+  "remember-cursor-position",
+  "restore-tab-key",
+  "obsidian-image-auto-upload-plugin"
 ]

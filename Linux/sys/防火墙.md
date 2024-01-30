@@ -1,0 +1,70 @@
+
+UFW的使用
+
+UFW全称为Uncomplicated Firewall，是Ubuntu系统上配置iptables防火墙的工具。UFW提供一个非常友好的命令用于创建基于IPV4，IPV6的防火墙规则。
+
+
+ufw    [delete] [insert NUM] allow|deny|reject|limit [in|out on INTERFACE] [log|log-all] [proto protocol] [from ADDRESS [port PORT]] [to ADDRESS [port PORT]]
+命令［删除］ 允许｜阻止｜拒绝｜限制 ［进｜出 基于“什么网络设备”］ ［协议 “协议”］ ［来源 “地址” ［端口 “端口”］］ ［目标 “地址” ［端口 “端口”］］
+
+
+## 安装
+
+```csharp
+sudo apt-get install ufw
+```
+
+## 使用
+
+### 启动防火墙并设置开机启动
+```csharp
+sudo ufw enable
+sudo ufw default deny
+
+
+sudo systemctl start ufw
+```
+开启防火墙并关闭外部主机对本机的访问（不影响本机对外部主机访问）
+
+
+### 关闭
+
+```bash
+sudo ufw disable
+sudo systemctl stop ufw
+sudo systemctl disable ufw  关闭自启动
+```
+
+### 查看防火墙状态
+
+```lua
+sudo ufw status
+```
+
+### 开启、禁用端口及其他服务命令
+
+
+```bash
+sudo ufw allow port_number // 开放 port_number 端口
+ 
+sudo ufw delete allow port_number // 删除 port_number 端口
+ 
+sudo ufw allow from 192.168.1.1 // 允许来自 192.168.1.1 的主机的访问
+ 
+sudo ufw deny smtp // 禁止外部访问smtp服务
+ 
+sudo ufw delete allow smtp // 删除上面建立的某条规则
+```
+
+### 重置所有的规则
+
+```perl
+sudo ufw reset
+```
+
+### 查看规则编号
+
+```bash
+sudo ufw status numbered
+```
+

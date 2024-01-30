@@ -133,16 +133,3 @@ IP没问题就不会出现上方报错。
 官网服务器卡了，清缓存（"前期准备"一栏中有方法）后重新登陆
 
 
-
-18205451780
-telegram
-
-[a](https://www.luckydesigner.space/privacy-search-how-to-do/)
-[b](https://t.me/FreeSGKbot)
-[c](https://privacy.aiuys.com/)
-
-
-
-lexica
-
-prompt

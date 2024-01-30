@@ -6,14 +6,14 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 51
   },
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "promptDelete": false,
   "showFrontmatter": true,
   "vimMode": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showIndentGuide": false,
   "useTab": false
 }

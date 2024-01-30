@@ -1,11 +1,14 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "cssTheme": "Everforest",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 20,
+  "baseFontSize": 22,
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "nativeMenus": false,
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "首行缩进"
+  ]
 }
