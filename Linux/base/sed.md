@@ -34,6 +34,10 @@ nl file | sed '2,5d'
 
 删除2-末行
 nl file | sed '2-$d'
+
+在文件file中，删除含有字符串str的行
+sed -i '/str/d' file
+
 ```
 
 ## c

@@ -16,6 +16,9 @@ files		要查找的文件名，可以同时查找多个文件，若缺省，则�
 
 或
 grep [-abcEFGhHilLnqrsvVwxy][-A<显示行数>][-B<显示列数>][-C<显示列数>][-d<进行动作>][-e<范本样式>][-f<范本文件>][--help][范本样式][文件或目录...]
+
+查看关键字前面3行，后面5行
+ grep -B 3 -A 5 "第 0 个机器人" cerr.txt
 ```
 
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240105194513.png)

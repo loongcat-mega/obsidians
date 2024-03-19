@@ -304,7 +304,7 @@ gr.Interface(fn=predict, inputs=inputs, outputs=outputs).launch(share=True)
 向服务器上传文件
 ```python
 
-```import os
+import os
 import requests
 import gradio as gr
 import shutil
@@ -327,3 +327,5 @@ iface = gr.Interface(fn=generate_file, inputs="file", outputs="text", live=True)
 
 # 启动 Gradio 服务器
 iface.launch(share=True)
+```
+

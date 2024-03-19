@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9ad5c676a073064c",
+        "id": "6d265abfb75c2c58",
         "type": "tabs",
         "children": [
           {
-            "id": "9f047d1eac3c3d25",
+            "id": "a49b29e78b831e30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model.md",
+                "file": "Linux/WebServer/gradio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0a1e0d0657d4890f",
+            "id": "de20f69d84e868f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/正则表达式.md",
+                "file": "Linux/base/sed.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "42247b9c5534e1fc",
+            "id": "8dcd8b3b96df1324",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/base/ls.md",
+                "file": "git/Config.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "172503ccc91a0aa1",
+            "id": "fa433272709b7412",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/sys/缓冲区.md",
+                "file": "Linux/utils/vim.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "d6166dca6386fb22",
+            "id": "41f46c238a9bc791",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大创/jupyter notebook.md",
+                "file": "Linux/utils/前后台调度.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "c49ad86ed8327b00",
+            "id": "7040d10afca99424",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yuan.md",
+                "file": "Linux/net-tools/SSH.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,20 @@
             }
           },
           {
-            "id": "894068b7e0e5aa3a",
+            "id": "47b8a3cf31daca98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "创/Mindspore/VQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee23aeb6af1abf81",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,12 +112,12 @@
             }
           },
           {
-            "id": "257008c157598647",
+            "id": "1258c9ebff96e8d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "Linux/utils/调试技巧.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +125,12 @@
             }
           },
           {
-            "id": "65d4116e721e1a22",
+            "id": "9bef40badb870623",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/sys/驱动.md",
+                "file": "创/普朗克.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,155 +138,12 @@
             }
           },
           {
-            "id": "effa8606995fc8b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WebServer/Chat/socket.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "247cf72acece93c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WebServer/Chat/聊天软件设计.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c68e3a563552dfa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WebServer/websocket.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ada17cd822d1c4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WebServer/Chat/socket.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a9c64e328d65308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/callout.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5e026390262cdcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/base/awk.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06233239b6623d51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WebServer/fastapi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab85b800be2ee277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/base/stat.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da57c04fa569895d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/base/awk.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddc720ae5d8fdfd9",
+            "id": "81aff8c560766474",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/base/grep.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b56cbb5f8b6b45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/ce/逆向.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44579cb946558e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FPGA/视频推拉流/ffmpeg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -300,7 +170,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wc",
+                "query": "https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240317165211.png",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -407,27 +277,28 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-language-learner:打开查词面板": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": false,
-      "obsidian-language-learner:打开新词面板": true,
-      "obsidian-language-learner:打开统计": true,
-      "obsidian-language-learner:单词列表": true,
-      "darlal-switcher-plus:Open in Headings Mode": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": true
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "257008c157598647",
+  "active": "ee23aeb6af1abf81",
   "lastOpenFiles": [
-    "git/Config.md",
+    "创/普朗克.md",
+    "Linux/utils/调试技巧.md",
     "git/git.md",
-    "yuan.md",
-    "python/numpy/Numerical Python的简称.md",
-    "大创/jupyter notebook.md",
-    "大创/版本匹配.md",
-    "FPGA/SSD.md",
-    "FPGA/FPGA.md",
-    "FPGA/”视频“.md",
-    "大创/MCAN.md"
+    "Excalidraw/碰检.excalidraw",
+    "Excalidraw/Drawing 2023-12-04 14.11.44.excalidraw",
+    "Linux/utils/前后台调度.md",
+    "git/Config.md",
+    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
+    "Linux/utils/vim.md",
+    "Linux/base/sed.md"
   ]
 }

@@ -24,4 +24,4 @@ mindmap-plugin: basic
 
 ### [[Kruskal]]
 
-#### [[并查集]]
+#### [[专业课/数据结构/Graph/并查集]]

@@ -51,10 +51,12 @@ aaa@DESKTOP-RRJ1UGP:~/FileOP$ date +%F  |awk -F "-" '{for (i=1;i<=NF;i++)printf(
 存在三个字段，说明该文件是个软链接
 aaa@DESKTOP-RRJ1UGP:/usr/local/ccc$ stat -c %N ta | awk '{printf "%d\n",NF}'
 3
+
 ```
 
 
 ```bash
+
 root@DESKTOP-RRJ1UGP:/usr/local/ccc# stat -c %N ta | awk '{print$3}' | grep -E ".+"
 '../bbb/a.txt'
 root@DESKTOP-RRJ1UGP:/usr/local/ccc# stat -c %N ta | awk '{match($3, /'\''(.+)'\''/, arr); print arr[1]}'
