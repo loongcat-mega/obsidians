@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "cssTheme": "Everforest",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "nativeMenus": false,

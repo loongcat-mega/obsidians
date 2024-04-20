@@ -19,3 +19,5 @@
 
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240316214638.png)
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240316214829.png)
+
+ctrl +r + = 计算数学表达式

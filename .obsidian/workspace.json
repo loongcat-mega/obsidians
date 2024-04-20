@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a49b29e78b831e30",
+            "id": "4883b73cdf7b5045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/WebServer/gradio.md",
+                "file": "Linux/utils/Docker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "de20f69d84e868f2",
+            "id": "0320411f0fd5836b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/base/sed.md",
+                "file": "ag/树状数组.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "8dcd8b3b96df1324",
+            "id": "40d8ef0357d52851",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/Config.md",
+                "file": "ag/数位DP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "fa433272709b7412",
+            "id": "ce118e9b99f43f78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/vim.md",
+                "file": "ag/KMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "41f46c238a9bc791",
+            "id": "2b3d14ae8e7c1fc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/前后台调度.md",
+                "file": "ag/Trie 字典树.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "7040d10afca99424",
+            "id": "607e60de8f99fc45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/net-tools/SSH.md",
+                "file": "Linux/sys/缓冲区.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "47b8a3cf31daca98",
+            "id": "432bb229ee0bfdc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "创/Mindspore/VQA.md",
+                "file": "ag/字符串哈希.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +99,12 @@
             }
           },
           {
-            "id": "ee23aeb6af1abf81",
+            "id": "31c9c72b1b9dc5b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "ag/KMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "1258c9ebff96e8d7",
+            "id": "c32c4b5d13013c78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/调试技巧.md",
+                "file": "Linux/MYSQL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +125,12 @@
             }
           },
           {
-            "id": "9bef40badb870623",
+            "id": "c741311fe9b2f695",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "创/普朗克.md",
+                "file": "ag/线段树.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,12 +138,25 @@
             }
           },
           {
-            "id": "81aff8c560766474",
+            "id": "93677899f4fc78c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/base/grep.md",
+                "file": "ag/ST表.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c0dd617493d26c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Latex/Latex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -170,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240317165211.png",
+                "query": "缓冲区",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -234,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md"
+                "file": "Latex/Latex.md"
               }
             }
           },
@@ -244,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git.md",
+                "file": "Latex/Latex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +274,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git.md",
+                "file": "Latex/Latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,20 +298,21 @@
       "obsidian-language-learner:单词列表": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-wordpress:发布到 WordPress": false
     }
   },
-  "active": "ee23aeb6af1abf81",
+  "active": "1c0dd617493d26c8",
   "lastOpenFiles": [
-    "创/普朗克.md",
-    "Linux/utils/调试技巧.md",
-    "git/git.md",
-    "Excalidraw/碰检.excalidraw",
-    "Excalidraw/Drawing 2023-12-04 14.11.44.excalidraw",
-    "Linux/utils/前后台调度.md",
-    "git/Config.md",
-    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
-    "Linux/utils/vim.md",
-    "Linux/base/sed.md"
+    "Linux/sys/缓冲区.md",
+    "ag/Trie 字典树.md",
+    "ag/位运算.md",
+    "ag/数位DP.md",
+    "ag/树状数组.md",
+    "ag/前缀和.md",
+    "就业/机试.md",
+    "ag/KMP.md",
+    "ag/字符串哈希.md",
+    "ag/异或.md"
   ]
 }
