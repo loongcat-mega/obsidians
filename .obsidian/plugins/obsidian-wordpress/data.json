@@ -1,0 +1,34 @@
+{
+  "lang": "auto",
+  "profiles": [
+    {
+      "name": "DUTer",
+      "apiType": "application-passwords",
+      "endpoint": "http://http://182.92.170.252:888/wp-admin/index.php",
+      "xmlRpcPath": "/xmlrpc.php",
+      "saveUsername": true,
+      "savePassword": true,
+      "isDefault": true,
+      "lastSelectedCategories": [
+        1
+      ],
+      "username": "longcat",
+      "encryptedPassword": {
+        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"UyLU3UClozCmWo2KFUU-28Ih1zcmX6HVZrPgx-6JkNA\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
+        "vector": "7fyYXv7QyE9hMWeq",
+        "encrypted": "yBInw1DKt1fEGKVSluo7gHAnLys9nQyRJMYKHcg="
+      }
+    }
+  ],
+  "showRibbonIcon": true,
+  "defaultPostStatus": "publish",
+  "defaultCommentStatus": "open",
+  "rememberLastSelectedCategories": false,
+  "showWordPressEditConfirm": true,
+  "mathJaxOutputType": "svg",
+  "commentConvertMode": "ignore",
+  "enableHtml": true,
+  "replaceMediaLinks": true,
+  "version": "2",
+  "defaultPostType": "post"
+}

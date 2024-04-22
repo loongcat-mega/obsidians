@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ag/树状数组.md",
+                "file": "ag/并查集.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,38 +47,12 @@
             }
           },
           {
-            "id": "ce118e9b99f43f78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ag/KMP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b3d14ae8e7c1fc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ag/Trie 字典树.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "607e60de8f99fc45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/sys/缓冲区.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,19 +79,6 @@
               "type": "markdown",
               "state": {
                 "file": "ag/KMP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c32c4b5d13013c78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/MYSQL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -156,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Latex/Latex.md",
+                "file": "ag/并查集.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -164,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -247,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Latex/Latex.md"
+                "file": "ag/KMP.md"
               }
             }
           },
@@ -257,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Latex/Latex.md",
+                "file": "ag/KMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Latex/Latex.md",
+                "file": "ag/KMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,17 +263,17 @@
       "obsidian-wordpress:发布到 WordPress": false
     }
   },
-  "active": "1c0dd617493d26c8",
+  "active": "31c9c72b1b9dc5b4",
   "lastOpenFiles": [
-    "Linux/sys/缓冲区.md",
-    "ag/Trie 字典树.md",
-    "ag/位运算.md",
-    "ag/数位DP.md",
-    "ag/树状数组.md",
-    "ag/前缀和.md",
-    "就业/机试.md",
-    "ag/KMP.md",
-    "ag/字符串哈希.md",
-    "ag/异或.md"
+    "Linux/MYSQL.md",
+    "ag/并查集.md",
+    "ag/差分.md",
+    "ag/单调队列.md",
+    "ag/单调栈.md",
+    "ag/递归.md",
+    "ag/动态规划.md",
+    "ag/二分.md",
+    "ag/滑动窗口.md",
+    "ag/离散化.md"
   ]
 }
