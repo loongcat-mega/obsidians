@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6d265abfb75c2c58",
+        "id": "27e632fe3d56d1b6",
         "type": "tabs",
         "children": [
           {
-            "id": "4883b73cdf7b5045",
+            "id": "f1ce991c6ad2ed17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/Docker.md",
+                "file": "MySQL/事务.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0320411f0fd5836b",
+            "id": "f768a88984e8b24e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ag/并查集.md",
+                "file": "Linux/base/grep.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "40d8ef0357d52851",
+            "id": "d18c97aaa888d1a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ag/数位DP.md",
+                "file": "MySQL/MYSQL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "2b3d14ae8e7c1fc5",
+            "id": "bc021281947fe853",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ag/Trie 字典树.md",
+                "file": "Go/TRPC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,64 +60,12 @@
             }
           },
           {
-            "id": "432bb229ee0bfdc3",
+            "id": "1cfbc10dd1e37f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ag/字符串哈希.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31c9c72b1b9dc5b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ag/KMP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c741311fe9b2f695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ag/线段树.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93677899f4fc78c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ag/ST表.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c0dd617493d26c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ag/并查集.md",
+                "file": "cppreference/代码质量管理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "缓冲区",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -184,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 247.50247192382812
   },
   "right": {
     "id": "58edbd8714a9e505",
@@ -208,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ag/KMP.md"
+                "file": "MySQL/MYSQL.md"
               }
             }
           },
@@ -218,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ag/KMP.md",
+                "file": "MySQL/MYSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ag/KMP.md",
+                "file": "MySQL/MYSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,34 +194,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:打开/创建今天的日记": false,
-      "graph:查看关系图谱": false,
-      "switcher:打开快速切换": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-wordpress:发布到 WordPress": false
+      "obsidian-language-learner:Open word search panel": false,
+      "obsidian-language-learner:Open new word panel": false,
+      "obsidian-language-learner:Open statistics": false,
+      "obsidian-language-learner:Data Panel": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "31c9c72b1b9dc5b4",
+  "active": "d18c97aaa888d1a5",
   "lastOpenFiles": [
-    "Linux/MYSQL.md",
-    "ag/并查集.md",
-    "ag/差分.md",
-    "ag/单调队列.md",
-    "ag/单调栈.md",
-    "ag/递归.md",
-    "ag/动态规划.md",
-    "ag/二分.md",
-    "ag/滑动窗口.md",
-    "ag/离散化.md"
+    "Go/ASYNC/migrate/po/po.go",
+    "Go/ASYNC/migrate/dao/delete.go",
+    "Go/ASYNC/migrate/dao/db.go",
+    "Go/ASYNC/migrate/dao/check.go",
+    "Go/ASYNC/migrate/constants/constants.go",
+    "Go/ASYNC/migrate/biz/record_migrate.go",
+    "Go/ASYNC/migrate/biz/construct_info.go",
+    "Go/ASYNC/migrate/biz/check.go",
+    "Go/ASYNC/migrate/biz/article_helper_test.go",
+    "Go/ASYNC/migrate/biz/article_helper.go",
+    "Go/ASYNC/migrate/biz/alpha_migrate.go",
+    "git/git.md",
+    "实习/code.md",
+    "Linux/base/interesting.md",
+    "Linux/base/lsof.md",
+    "Linux/net-tools/curl.md",
+    "Linux/net-tools/安装tcping.md",
+    "Linux/net-tools/frp.md",
+    "Linux/net-tools/ngrok.md",
+    "Linux/net-tools/ping.md",
+    "Linux/net-tools/SSH.md",
+    "实习/答辩稿.md",
+    "实习/自评.md",
+    "MySQL/MYSQL.md",
+    "MySQL/GORM.md",
+    "Linux/base/find.md",
+    "git/Config.md",
+    "Linux/base/netstat.md",
+    "Linux/scp/scp.md",
+    "Go/超级删文迁移.md",
+    "Go/TRPC.md",
+    "MySQL/事务.md",
+    "MySQL/日期类型.md",
+    "Pasted image 20240717135625.png",
+    "Pasted image 20240715220505.png",
+    "Pasted image 20240712172107.png",
+    "Pasted image 20240712163229.png",
+    "Pasted image 20240712163023.png",
+    "Pasted image 20240711214826.png",
+    "Pasted image 20240709214715.png",
+    "Go/net http.md",
+    "Go/TODO.md",
+    "cppreference/代码质量管理.md",
+    "Pasted image 20240715220457.png",
+    "Pasted image 20240715220211.png",
+    "Pasted image 20240715215953.png"
   ]
 }

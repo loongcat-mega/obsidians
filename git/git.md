@@ -219,10 +219,17 @@ rm 命令只是删除工作区的文件，并没有删除版本库的文件
 ### 查看提交日志
 `git log`
 查看提交日志
+
+
+```git
+git log --all --pretty=oneline --abbrev-commit --graph 
+```
 #### --all 显示所有分支
 #### --pretty=oneline 将提交的信息显示为一行
 #### --abbrev-commit 使得输出的commitid更简短
 #### --graph 以图的形式显示
+
+
 
 或许你不想知道某一项在 **哪里** ，而是想知道是什么 **时候** 存在或者引入的。 `git log` 命令有许多强大的工具可以通过提交信息甚至是 diff 的内容来找到某个特定的提交。
 
