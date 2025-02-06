@@ -53,21 +53,6 @@
             }
           },
           {
-            "id": "8f45e73e73c62fc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git/git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git"
-            }
-          },
-          {
             "id": "ed20223f9b2922fc",
             "type": "leaf",
             "state": {
@@ -188,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md"
+                "file": "ffmpeg.md"
               },
               "icon": "lucide-list",
-              "title": "git 的大纲"
+              "title": "ffmpeg 的大纲"
             }
           },
           {
@@ -322,9 +307,46 @@
       "obsidian-wordpress:发布到 WordPress": false
     }
   },
-  "active": "8f45e73e73c62fc0",
+  "active": "68a89cdbeebe33fc",
   "lastOpenFiles": [
-    "raft/raft-zh_cn.md",
+    "ffmpeg_develop_doc/音视频信号采集压缩及传输系统的设计与实现.pdf",
+    "ffmpeg_develop_doc/直播聚合平台的设计与实现.pdf",
+    "ffmpeg_develop_doc/文档库/详解FFMPEG API.pdf",
+    "ffmpeg_develop_doc/文档库/ffmpeg翻译文档.pdf",
+    "ffmpeg_develop_doc/文档库/ffmpeg的中文文档.pdf",
+    "ffmpeg_develop_doc/文档库/ffmpeg的tutorial中文版.pdf",
+    "ffmpeg_develop_doc/文档库/ffmpeg(libav)解码全解析(带书签).pdf",
+    "ffmpeg_develop_doc/文档库/FFmpeg学习记录.pdf",
+    "ffmpeg_develop_doc/文档库/FFmpeg Basics.pdf",
+    "ffmpeg_develop_doc/文档库/FFMpeg-SDK-开发手册.pdf",
+    "ffmpeg_develop_doc/文档库/FFMPEG教程完美排版.pdf",
+    "ffmpeg_develop_doc/teaching video/video.md",
+    "ffmpeg_develop_doc/paper/README.md",
+    "ffmpeg_develop_doc/iOS资料/音视频学习--iOS适配H265实战踩坑记.md",
+    "ffmpeg_develop_doc/iOS资料/资深程序员的Metal入门教程总结.md",
+    "ffmpeg_develop_doc/iOS资料/视频直播iOS端技术.md",
+    "ffmpeg_develop_doc/iOS资料/最简单的基于FFmpeg的移动端例子：IOS HelloWorld.md",
+    "ffmpeg_develop_doc/iOS资料/基于 AVFoundation 框架开发小视频功能的方案解析.md",
+    "ffmpeg_develop_doc/iOS资料/关于iOS离屏渲染的深入研究.md",
+    "ffmpeg_develop_doc/iOS资料/【如何快速的开发一个完整的iOS直播app】(美颜篇).md",
+    "ffmpeg_develop_doc/iOS资料/【OpenGL入门】iOS 图像渲染原理.md",
+    "ffmpeg_develop_doc/iOS资料/macOS 下单步调试 WebRTC Android & iOS.md",
+    "ffmpeg_develop_doc/iOS资料/iOS高级视频渲染.md",
+    "ffmpeg_develop_doc/iOS资料/iOS项目集成OpenCV及踩过的坑.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音频采集过程中的音效实现.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音频视频开发.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频：OpenGL常用术语介绍.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频的那些事儿：数据的采集和编码.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开源框架WebRTC入门-AppRTCMobile.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开发——视频采集.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开发——FFmpeg库编译.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-采集、编码、滤镜.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-代码实现视频编码.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-了解编码及视频.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频同步探讨.md",
+    "ffmpeg_develop_doc/iOS资料/iOS音视频 -- AVFoundation捕捉.md",
+    "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
+    "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
     "raft/images/raft-图8.png",
     "raft/images/raft-图7.png",
@@ -332,43 +354,6 @@
     "raft/images/raft-图5.png",
     "raft/images/raft-图4.png",
     "raft/images/raft-图3.png",
-    "raft/images/raft-图2.png",
-    "raft/images/raft-图16.png",
-    "raft/images/raft-图15.png",
-    "raft/images",
-    "raft/README.md",
-    "raft",
-    "raft-zh_cn/README.md",
-    "git/git.md",
-    "mysql/事务.md",
-    "cppreference/智能指针/weak_ptr.md",
-    "cppreference/智能指针/unique_ptr.md",
-    "cppreference/智能指针/shared_ptr.md",
-    "cppreference/智能指针/README.md",
-    "cppreference/多线程编程/并发支持库.md",
-    "cppreference/多线程编程/函数式编程.md",
-    "cppreference/c++20STL/chap4 兼容迭代器.md",
-    "cppreference/c++20STL/chap3 STL容器.md",
-    "cppreference/c++20STL/chap2 STL的泛型特性.md",
-    "cppreference/c++20STL/chap1 c++20的新特性.md",
-    "cppreference/c++20STL/C++20 STL Cookbook 中文.pdf",
-    "cppreference/现代c++核心特性解析/现代C++ 核心特性解析.pdf",
-    "cppreference/现代c++核心特性解析/chap9 列表初始化.md",
-    "cppreference/现代c++核心特性解析/chap8 非静态数据成员默认初始化.md",
-    "cppreference/现代c++核心特性解析/chap7 lambda表达式.md",
-    "cppreference/现代c++核心特性解析/chap6 左值与右值引用.md",
-    "cppreference/现代c++核心特性解析/chap5 函数返回类型后置.md",
-    "cppreference/现代c++核心特性解析/chap4 decltype说明符.md",
-    "cppreference/现代c++核心特性解析/chap38 类模板的模板实参推导.md",
-    "cppreference/现代c++核心特性解析/chap37 模板参数优化.md",
-    "cppreference/现代c++核心特性解析/chap36 typename优化.md",
-    "cppreference/现代c++核心特性解析/chap35 可变参数模板.md",
-    "cppreference/现代c++核心特性解析/chap34 基础特性的其他优化.md",
-    "cppreference/c++提高/C++基础与提高-王桂林.pdf",
-    "cppreference/现代c++核心特性解析",
-    "cppreference/智能指针",
-    "cppreference/多线程编程",
-    "cppreference/c++提高",
-    "cppreference/c++20STL"
+    "raft/images/raft-图2.png"
   ]
 }

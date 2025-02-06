@@ -4,3 +4,6 @@
 [submodule "raft"]
 	path = raft
 	url = https://github.com/maemual/raft-zh_cn.git
+[submodule "ffmpeg_develop_doc"]
+	path = ffmpeg_develop_doc
+	url = https://github.com/0voice/ffmpeg_develop_doc.git
