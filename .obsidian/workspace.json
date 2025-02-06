@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ffmpeg.md",
+                "file": "Go/GoBase.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ffmpeg"
+              "title": "GoBase"
             }
           },
           {
@@ -266,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ffmpeg.md"
+                "file": "Go/GoBase.md"
               },
               "icon": "lucide-list",
-              "title": "ffmpeg 的大纲"
+              "title": "GoBase 的大纲"
             }
           },
           {
@@ -309,6 +309,14 @@
   },
   "active": "68a89cdbeebe33fc",
   "lastOpenFiles": [
+    "Go/ASYNC/概述.md",
+    "git/git.md",
+    "Go/trpc.md",
+    "Go/ASYNC/常见的并发模式.md",
+    "Go/ASYNC/面向并发的内存模型.md",
+    "Go/GoBase.md",
+    "Go/go module.md",
+    "ffmpeg.md",
     "ffmpeg_develop_doc/音视频信号采集压缩及传输系统的设计与实现.pdf",
     "ffmpeg_develop_doc/直播聚合平台的设计与实现.pdf",
     "ffmpeg_develop_doc/文档库/详解FFMPEG API.pdf",
@@ -319,7 +327,6 @@
     "ffmpeg_develop_doc/文档库/FFmpeg学习记录.pdf",
     "ffmpeg_develop_doc/文档库/FFmpeg Basics.pdf",
     "ffmpeg_develop_doc/文档库/FFMpeg-SDK-开发手册.pdf",
-    "ffmpeg_develop_doc/文档库/FFMPEG教程完美排版.pdf",
     "ffmpeg_develop_doc/teaching video/video.md",
     "ffmpeg_develop_doc/paper/README.md",
     "ffmpeg_develop_doc/iOS资料/音视频学习--iOS适配H265实战踩坑记.md",
@@ -338,13 +345,6 @@
     "ffmpeg_develop_doc/iOS资料/iOS音视频：OpenGL常用术语介绍.md",
     "ffmpeg_develop_doc/iOS资料/iOS音视频的那些事儿：数据的采集和编码.md",
     "ffmpeg_develop_doc/iOS资料/iOS音视频开源框架WebRTC入门-AppRTCMobile.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开发——视频采集.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开发——FFmpeg库编译.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-采集、编码、滤镜.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-代码实现视频编码.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开发-了解编码及视频.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频同步探讨.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频 -- AVFoundation捕捉.md",
     "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
