@@ -9,3 +9,5 @@
 	url = https://github.com/0voice/ffmpeg_develop_doc.git
 [submodule "git@github.com:loongcat-mega/cppreference.git"]
 	url = cppreference
+[submodule "https://github.com/loongcat-mega/Algorithm.git"]
+	url = Algorithm

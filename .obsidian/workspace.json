@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/GoBase.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GoBase"
+              "title": "git"
             }
           },
           {
@@ -266,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/GoBase.md"
+                "file": "git/git.md"
               },
               "icon": "lucide-list",
-              "title": "GoBase 的大纲"
+              "title": "git 的大纲"
             }
           },
           {
@@ -283,6 +283,25 @@
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "181abdf745bb9ed7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git/git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "git 的反向链接列表"
             }
           }
         ],
@@ -303,48 +322,47 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-wordpress:发布到 WordPress": false
+      "obsidian-language-learner:打开新词面板": false
     }
   },
   "active": "68a89cdbeebe33fc",
   "lastOpenFiles": [
-    "Go/ASYNC/概述.md",
-    "git/git.md",
-    "Go/trpc.md",
-    "Go/ASYNC/常见的并发模式.md",
-    "Go/ASYNC/面向并发的内存模型.md",
-    "Go/GoBase.md",
-    "Go/go module.md",
-    "ffmpeg.md",
-    "ffmpeg_develop_doc/音视频信号采集压缩及传输系统的设计与实现.pdf",
-    "ffmpeg_develop_doc/直播聚合平台的设计与实现.pdf",
-    "ffmpeg_develop_doc/文档库/详解FFMPEG API.pdf",
-    "ffmpeg_develop_doc/文档库/ffmpeg翻译文档.pdf",
-    "ffmpeg_develop_doc/文档库/ffmpeg的中文文档.pdf",
-    "ffmpeg_develop_doc/文档库/ffmpeg的tutorial中文版.pdf",
-    "ffmpeg_develop_doc/文档库/ffmpeg(libav)解码全解析(带书签).pdf",
-    "ffmpeg_develop_doc/文档库/FFmpeg学习记录.pdf",
-    "ffmpeg_develop_doc/文档库/FFmpeg Basics.pdf",
-    "ffmpeg_develop_doc/文档库/FFMpeg-SDK-开发手册.pdf",
-    "ffmpeg_develop_doc/teaching video/video.md",
-    "ffmpeg_develop_doc/paper/README.md",
-    "ffmpeg_develop_doc/iOS资料/音视频学习--iOS适配H265实战踩坑记.md",
-    "ffmpeg_develop_doc/iOS资料/资深程序员的Metal入门教程总结.md",
-    "ffmpeg_develop_doc/iOS资料/视频直播iOS端技术.md",
-    "ffmpeg_develop_doc/iOS资料/最简单的基于FFmpeg的移动端例子：IOS HelloWorld.md",
-    "ffmpeg_develop_doc/iOS资料/基于 AVFoundation 框架开发小视频功能的方案解析.md",
-    "ffmpeg_develop_doc/iOS资料/关于iOS离屏渲染的深入研究.md",
-    "ffmpeg_develop_doc/iOS资料/【如何快速的开发一个完整的iOS直播app】(美颜篇).md",
-    "ffmpeg_develop_doc/iOS资料/【OpenGL入门】iOS 图像渲染原理.md",
-    "ffmpeg_develop_doc/iOS资料/macOS 下单步调试 WebRTC Android & iOS.md",
-    "ffmpeg_develop_doc/iOS资料/iOS高级视频渲染.md",
-    "ffmpeg_develop_doc/iOS资料/iOS项目集成OpenCV及踩过的坑.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音频采集过程中的音效实现.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音频视频开发.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频：OpenGL常用术语介绍.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频的那些事儿：数据的采集和编码.md",
-    "ffmpeg_develop_doc/iOS资料/iOS音视频开源框架WebRTC入门-AppRTCMobile.md",
+    "Algorithm/数学专题/特殊数/斯特林数/第二类斯特林数/第二类斯特林数.md",
+    "Algorithm/数学专题/特殊数/斯特林数/第一类斯特林数/第一类斯特林数.md",
+    "Algorithm/数学专题/特殊数/斯特林数/第一类斯特林数/建筑群问题.md",
+    "Algorithm/数学专题/数值分析/函数逼近/最小二乘拟合/最小二乘拟合.md",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近/正交函数系作最佳平方逼近.md",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近/勒让德多项式Legendre.md",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近/前置理论.md",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近/切比雪夫多项式 chebyshev.md",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近/函数的最佳平方逼近.md",
+    "Algorithm/数据结构/排序/快速排序/荷兰国旗问题.md",
+    "Algorithm/数据结构/排序/快速排序/快速排序3.0随机快排.md",
+    "Algorithm/数据结构/排序/快速排序/快排非递归.md",
+    "Algorithm/数据结构/排序/归并排序/归并排序.md",
+    "Algorithm/数据结构/排序/归并排序/归并04 子数组和.md",
+    "Algorithm/数据结构/排序/归并排序/归并03 比右侧两倍大.md",
+    "Algorithm/数据结构/排序/归并排序/归并02 逆序对.md",
+    "Algorithm/数据结构/排序/归并排序/归并01 小和.md",
+    "Algorithm/数据结构/排序/堆/最大线段重合问题.md",
+    "Algorithm/数据结构/排序/堆/堆的创建.md",
+    "Algorithm/数据结构/排序/基数排序/基数排序.md",
+    "Algorithm/数学专题/特殊数/斯特林数/第二类斯特林数",
+    "Algorithm/数学专题/特殊数/斯特林数/第一类斯特林数",
+    "Algorithm/数学专题/特殊数/斯特林数/斯特林反演.md",
+    "Algorithm/数学专题/特殊数/圆排列 错位排列 组合数/考新郎.md",
+    "Algorithm/数学专题/特殊数/圆排列 错位排列 组合数/圆排列 错位排列 组合数.md",
+    "Algorithm/数学专题/特殊数/圆排列 错位排列 组合数/二项式反演.md",
+    "Algorithm/数学专题/数值分析/插值法/误差有关概念.md",
+    "Algorithm/数学专题/数值分析/插值法/牛顿插值法.md",
+    "Algorithm/数学专题/数值分析/函数逼近/最小二乘拟合",
+    "Algorithm/数学专题/数值分析/函数逼近/函数最佳平方逼近",
+    "Algorithm/数据结构/排序/快速排序",
+    "Algorithm/数据结构/排序/归并排序",
+    "Algorithm/数据结构/排序/堆",
+    "Algorithm/数据结构/排序/基数排序",
+    "Algorithm/数学专题/特殊数/斯特林数",
+    "Algorithm/数学专题/特殊数/圆排列 错位排列 组合数",
     "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
