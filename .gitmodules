@@ -7,9 +7,6 @@
 [submodule "ffmpeg_develop_doc"]
 	path = ffmpeg_develop_doc
 	url = https://github.com/0voice/ffmpeg_develop_doc.git
-[submodule "git@github.com:loongcat-mega/cppreference.git"]
-	url = cppreference
-[submodule "https://github.com/loongcat-mega/Algorithm.git"]
-	url = Algorithm
 [submodule "Algorithm"]
+	path = Algorithm
 	url = https://github.com/loongcat-mega/Algorithm.git
