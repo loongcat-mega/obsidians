@@ -56,12 +56,15 @@
             "id": "8f45e73e73c62fc0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw"
+                "file": "mysql/事务.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-03-17 16.45.55"
+              "icon": "lucide-file",
+              "title": "事务"
             }
           },
           {
@@ -278,10 +281,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw"
+                "file": "mysql/事务.md"
               },
               "icon": "lucide-list",
-              "title": "Drawing 2024-03-17 16.45.55 的大纲"
+              "title": "事务 的大纲"
             }
           },
           {
@@ -319,27 +322,45 @@
       "obsidian-wordpress:发布到 WordPress": false
     }
   },
-  "active": "8f45e73e73c62fc0",
+  "active": "165270320d5c3637",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-02-06 17.20.44.excalidraw",
-    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
-    "Go/package.md",
-    "Go/gorm.md",
-    "Go/Golang101-v1.22.a.pdf-ForPrinting.pdf",
-    "Go/GoBase.md",
-    "Go/go module.md",
-    "视频转码/openCV.md",
-    "视频转码/JPEG.md",
-    "视频转码/转码.md",
-    "视频转码/视频.md",
-    "毕设/手势识别.md",
-    "毕设/《基于x266编码器的视频质量提升算法研究》.md",
-    "ffmpeg.md",
-    "raft-zh_cn/raft-zh_cn.md",
-    "raft-zh_cn/README.md",
+    "newcpp/c++20STL/chap4 兼容迭代器.md",
+    "newcpp/c++20STL/chap3 STL容器.md",
+    "newcpp/c++20STL/chap2 STL的泛型特性.md",
+    "newcpp/c++20STL/chap1 c++20的新特性.md",
+    "newcpp/c++20STL/C++20 STL Cookbook 中文.pdf",
+    "newcpp/c++20STL",
+    "newcpp/现代c++核心特性解析/chap3 auto占位符.md",
+    "newcpp/现代c++核心特性解析/chap38 类模板的模板实参推导.md",
+    "newcpp/现代c++核心特性解析/chap15 扩展的聚合类型.md",
+    "newcpp/现代c++核心特性解析/chap19 static_assert声明.md",
+    "newcpp/现代c++核心特性解析/chap23 指针字面量nullptr.md",
+    "newcpp/现代c++核心特性解析/chap21 noexpect关键字.md",
+    "newcpp/现代c++核心特性解析/chap32 新增预处理器和宏.md",
+    "newcpp/现代c++核心特性解析/chap16 override和final说明符.md",
+    "newcpp/现代c++核心特性解析/chap24 三向比较.md",
+    "newcpp/现代c++核心特性解析/chap25 线程局部存储.md",
+    "newcpp/现代c++核心特性解析/chap29 字面量优化.md",
+    "newcpp/现代c++核心特性解析/chap7 lambda表达式.md",
+    "newcpp/现代c++核心特性解析/chap30 alignas 和 alignof.md",
+    "newcpp/现代c++核心特性解析/chap14 强枚举类型.md",
+    "newcpp/现代c++核心特性解析/chap36 typename优化.md",
+    "newcpp/现代c++核心特性解析/chap22 类型别名和别名模版.md",
+    "newcpp/现代c++核心特性解析/chap26 扩展的inline说明符.md",
+    "newcpp/现代c++核心特性解析/README.md",
+    "newcpp/现代c++核心特性解析/chap27 常量表达式.md",
+    "newcpp/现代c++核心特性解析/chap20 结构化绑定.md",
+    "newcpp/现代c++核心特性解析/chap4 decltype说明符.md",
+    "newcpp/现代c++核心特性解析/chap17 基本范围的for循环.md",
+    "newcpp/现代c++核心特性解析/现代C++ 核心特性解析.pdf",
+    "newcpp/c++提高/C++基础与提高-王桂林.pdf",
+    "newcpp/现代c++核心特性解析",
+    "newcpp/智能指针",
+    "newcpp/多线程编程",
+    "newcpp/c++提高",
+    "newcpp/cppreference",
+    "newcpp/设计模式/结构型",
     "raft-zh_cn/images/raft-图1.png",
-    "Latex/vqa/univlp/UniVLP.pdf",
-    "Latex/vqa/univlp/Coding.pdf",
     "Latex/vqa/univlp/figures/transformer.png",
     "Latex/vqa/univlp/figures/uniml.png",
     "Latex/vqa/univlp/figures/Bert4S2SDecoder.png",
@@ -347,25 +368,7 @@
     "Latex/vqa/univlp/figures/BertLayer.png",
     "Latex/vqa/univlp/figures/BertIntermediate.png",
     "Latex/vqa/univlp/figures/BertAttention.png",
-    "设计模式/结构型/代理模式.md",
-    "设计模式/结构型/适配器模式.md",
-    "cppreference/c++提高/C++基础与提高-王桂林.pdf",
-    "cppreference/c++20STL/C++20 STL Cookbook 中文.pdf",
-    "cppreference/现代c++核心特性解析/chap35 可变参数模板.md",
-    "cppreference/现代c++核心特性解析/chap34 基础特性的其他优化.md",
-    "cppreference/现代c++核心特性解析/chap33 协程.md",
-    "cppreference/现代c++核心特性解析/chap31 属性说明符和标准属性.md",
-    "cppreference/现代c++核心特性解析/chap32 新增预处理器和宏.md",
-    "cppreference/现代c++核心特性解析/chap30 alignas 和 alignof.md",
-    "cppreference/现代c++核心特性解析/chap25 线程局部存储.md",
-    "cppreference/现代c++核心特性解析/chap19 static_assert声明.md",
-    "cppreference/现代c++核心特性解析/chap14 强枚举类型.md",
-    "cppreference/现代c++核心特性解析/chap10 默认和删除函数.md",
-    "cppreference/现代c++核心特性解析/现代C++ 核心特性解析.pdf",
     "raft-zh_cn/images/raft-图9.png",
-    "raft-zh_cn/images/raft-图8.png",
-    "raft-zh_cn/images",
-    "raft-zh_cn",
-    "kafka"
+    "raft-zh_cn/images/raft-图8.png"
   ]
 }

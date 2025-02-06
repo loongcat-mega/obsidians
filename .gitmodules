@@ -1,0 +1,3 @@
+[submodule "newcpp"]
+	path = newcpp
+	url = git@github.com:loongcat-mega/cppreference.git
