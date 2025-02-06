@@ -1,3 +1,6 @@
 [submodule "cppreference"]
 	path = cppreference
 	url = git@github.com:loongcat-mega/cppreference.git
+[submodule "raft"]
+	path = raft
+	url = https://github.com/maemual/raft-zh_cn.git

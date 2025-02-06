@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/事务.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "事务"
+              "title": "git"
             }
           },
           {
@@ -281,10 +281,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/事务.md"
+                "file": "git/git.md"
               },
               "icon": "lucide-list",
-              "title": "事务 的大纲"
+              "title": "git 的大纲"
             }
           },
           {
@@ -322,8 +322,25 @@
       "obsidian-wordpress:发布到 WordPress": false
     }
   },
-  "active": "165270320d5c3637",
+  "active": "8f45e73e73c62fc0",
   "lastOpenFiles": [
+    "raft/raft-zh_cn.md",
+    "raft/images/raft-图9.png",
+    "raft/images/raft-图8.png",
+    "raft/images/raft-图7.png",
+    "raft/images/raft-图6.png",
+    "raft/images/raft-图5.png",
+    "raft/images/raft-图4.png",
+    "raft/images/raft-图3.png",
+    "raft/images/raft-图2.png",
+    "raft/images/raft-图16.png",
+    "raft/images/raft-图15.png",
+    "raft/images",
+    "raft/README.md",
+    "raft",
+    "raft-zh_cn/README.md",
+    "git/git.md",
+    "mysql/事务.md",
     "cppreference/智能指针/weak_ptr.md",
     "cppreference/智能指针/unique_ptr.md",
     "cppreference/智能指针/shared_ptr.md",
@@ -347,28 +364,11 @@
     "cppreference/现代c++核心特性解析/chap36 typename优化.md",
     "cppreference/现代c++核心特性解析/chap35 可变参数模板.md",
     "cppreference/现代c++核心特性解析/chap34 基础特性的其他优化.md",
-    "cppreference/现代c++核心特性解析/chap33 协程.md",
-    "cppreference/现代c++核心特性解析/chap32 新增预处理器和宏.md",
-    "cppreference/现代c++核心特性解析/chap31 属性说明符和标准属性.md",
-    "cppreference/现代c++核心特性解析/chap30 alignas 和 alignof.md",
-    "cppreference/现代c++核心特性解析/chap3 auto占位符.md",
     "cppreference/c++提高/C++基础与提高-王桂林.pdf",
     "cppreference/现代c++核心特性解析",
     "cppreference/智能指针",
     "cppreference/多线程编程",
     "cppreference/c++提高",
-    "cppreference/c++20STL",
-    "cppreference",
-    "newcpp/c++提高/C++基础与提高-王桂林.pdf",
-    "raft-zh_cn/images/raft-图1.png",
-    "Latex/vqa/univlp/figures/transformer.png",
-    "Latex/vqa/univlp/figures/uniml.png",
-    "Latex/vqa/univlp/figures/Bert4S2SDecoder.png",
-    "Latex/vqa/univlp/figures/BertOutput.png",
-    "Latex/vqa/univlp/figures/BertLayer.png",
-    "Latex/vqa/univlp/figures/BertIntermediate.png",
-    "Latex/vqa/univlp/figures/BertAttention.png",
-    "raft-zh_cn/images/raft-图9.png",
-    "raft-zh_cn/images/raft-图8.png"
+    "cppreference/c++20STL"
   ]
 }
