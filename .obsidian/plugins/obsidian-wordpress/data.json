@@ -14,13 +14,13 @@
       ],
       "username": "longcat",
       "encryptedPassword": {
-        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"UyLU3UClozCmWo2KFUU-28Ih1zcmX6HVZrPgx-6JkNA\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
-        "vector": "7fyYXv7QyE9hMWeq",
-        "encrypted": "yBInw1DKt1fEGKVSluo7gHAnLys9nQyRJMYKHcg="
+        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"VXnxWtVw9dt-c0YzWPopDGH4i3ocuf0gAMtZ_4Nmw5Y\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
+        "vector": "4hWCNm+LYOTbKgEV",
+        "encrypted": "0iQJYl65baDa2Rl9jWf9r0E+9CpyHxpaDt43Wn4="
       }
     }
   ],
-  "showRibbonIcon": true,
+  "showRibbonIcon": false,
   "defaultPostStatus": "publish",
   "defaultCommentStatus": "open",
   "rememberLastSelectedCategories": false,

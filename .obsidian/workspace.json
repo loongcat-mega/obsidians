@@ -56,15 +56,12 @@
             "id": "8f45e73e73c62fc0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "视频转码/openCV.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "openCV"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-03-17 16.45.55"
             }
           },
           {
@@ -237,7 +234,7 @@
               "type": "langr-search-panel",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "插件不再活动"
             }
           },
           {
@@ -272,7 +269,7 @@
               "type": "calendar",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "插件不再活动"
             }
           },
           {
@@ -281,28 +278,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "视频转码/openCV.md"
+                "file": "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw"
               },
               "icon": "lucide-list",
-              "title": "openCV 的大纲"
-            }
-          },
-          {
-            "id": "ac52f8510e8a246b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Drawing 2024-03-17 16.45.55 的大纲"
             }
           },
           {
@@ -330,25 +309,32 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": true,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-language-learner:打开查词面板": true,
-      "obsidian-language-learner:打开新词面板": true,
-      "obsidian-language-learner:打开统计": true,
-      "obsidian-language-learner:单词列表": true,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-wordpress:发布到 WordPress": true,
-      "darlal-switcher-plus:Open in Headings Mode": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": true
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-wordpress:发布到 WordPress": false
     }
   },
   "active": "8f45e73e73c62fc0",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-06 17.20.44.excalidraw",
+    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
+    "Go/package.md",
+    "Go/gorm.md",
+    "Go/Golang101-v1.22.a.pdf-ForPrinting.pdf",
+    "Go/GoBase.md",
+    "Go/go module.md",
+    "视频转码/openCV.md",
     "视频转码/JPEG.md",
     "视频转码/转码.md",
     "视频转码/视频.md",
     "毕设/手势识别.md",
     "毕设/《基于x266编码器的视频质量提升算法研究》.md",
     "ffmpeg.md",
-    "视频转码/openCV.md",
     "raft-zh_cn/raft-zh_cn.md",
     "raft-zh_cn/README.md",
     "raft-zh_cn/images/raft-图1.png",
@@ -376,17 +362,10 @@
     "cppreference/现代c++核心特性解析/chap14 强枚举类型.md",
     "cppreference/现代c++核心特性解析/chap10 默认和删除函数.md",
     "cppreference/现代c++核心特性解析/现代C++ 核心特性解析.pdf",
-    "cppreference/现代c++核心特性解析/chap3 auto占位符.md",
-    "Linux/base/find.md",
-    "Linux/base/stat.md",
-    "Linux/shell/bash.md",
-    "未命名.md",
     "raft-zh_cn/images/raft-图9.png",
     "raft-zh_cn/images/raft-图8.png",
     "raft-zh_cn/images",
     "raft-zh_cn",
-    "kafka",
-    "redis",
-    "Latex/vqa/univlp/works.bib"
+    "kafka"
   ]
 }
