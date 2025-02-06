@@ -1,6 +1,6 @@
 [submodule "cppreference"]
 	path = cppreference
-	url = git@github.com:loongcat-mega/cppreference.git
+	url = https://github.com/loongcat-mega/cppreference.git
 [submodule "raft"]
 	path = raft
 	url = https://github.com/maemual/raft-zh_cn.git
@@ -11,3 +11,5 @@
 	url = cppreference
 [submodule "https://github.com/loongcat-mega/Algorithm.git"]
 	url = Algorithm
+[submodule "Algorithm"]
+	url = https://github.com/loongcat-mega/Algorithm.git
