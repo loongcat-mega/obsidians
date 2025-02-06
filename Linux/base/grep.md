@@ -23,4 +23,3 @@ grep [-abcEFGhHilLnqrsvVwxy][-A<显示行数>][-B<显示列数>][-C<显示列数
 
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240105194513.png)
 
-

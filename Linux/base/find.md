@@ -45,3 +45,9 @@ find /home -size +1M
 查找当前目录下 一年以前的子目录
 find . -maxdepth  1 -type d -mtime +365
 ```
+
+## 删除指定名称规则的文件
+
+```shell
+find path -name "720P增强版-H264" -exec rm -rf {} \;
+```

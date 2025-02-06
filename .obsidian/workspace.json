@@ -8,20 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1ce991c6ad2ed17",
+            "id": "1cfbc10dd1e37f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/事务.md",
+                "file": "Linux/shell/bash.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "bash"
             }
           },
           {
-            "id": "f768a88984e8b24e",
+            "id": "5da4eafdeeb6ddcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,50 +32,163 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "grep"
             }
           },
           {
-            "id": "d18c97aaa888d1a5",
+            "id": "68a89cdbeebe33fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MYSQL.md",
+                "file": "ffmpeg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "ffmpeg"
             }
           },
           {
-            "id": "bc021281947fe853",
+            "id": "8f45e73e73c62fc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/TRPC.md",
+                "file": "视频转码/openCV.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "openCV"
             }
           },
           {
-            "id": "1cfbc10dd1e37f24",
+            "id": "ed20223f9b2922fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cppreference/代码质量管理.md",
+                "file": "Linux/base/stat.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "stat"
+            }
+          },
+          {
+            "id": "45e2dc1f6db19f69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "20d5d5098417ade0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/shell/bash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bash"
+            }
+          },
+          {
+            "id": "92be9c664b1abb41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "8ee837e8252c355f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/find.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "find"
+            }
+          },
+          {
+            "id": "3a4d917d092041a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "视频转码/JPEG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JPEG"
+            }
+          },
+          {
+            "id": "8d27b089c2eb2601",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ffmpeg.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ffmpeg"
+            }
+          },
+          {
+            "id": "d844a90a757399f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/文件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文件"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,13 +207,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "macos",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -108,7 +225,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -116,7 +235,9 @@
             "type": "leaf",
             "state": {
               "type": "langr-search-panel",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -124,7 +245,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ],
@@ -147,7 +270,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -156,8 +281,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MYSQL.md"
-              }
+                "file": "视频转码/openCV.md"
+              },
+              "icon": "lucide-list",
+              "title": "openCV 的大纲"
             }
           },
           {
@@ -166,7 +293,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MYSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +300,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -183,10 +311,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MYSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           }
         ],
@@ -194,70 +323,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-language-learner:Open word search panel": false,
-      "obsidian-language-learner:Open new word panel": false,
-      "obsidian-language-learner:Open statistics": false,
-      "obsidian-language-learner:Data Panel": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-wordpress:WordPress Publish": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": true,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-language-learner:打开查词面板": true,
+      "obsidian-language-learner:打开新词面板": true,
+      "obsidian-language-learner:打开统计": true,
+      "obsidian-language-learner:单词列表": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-wordpress:发布到 WordPress": true,
+      "darlal-switcher-plus:Open in Headings Mode": true,
+      "darlal-switcher-plus:Open Symbols for the active editor": true
     }
   },
-  "active": "d18c97aaa888d1a5",
+  "active": "8f45e73e73c62fc0",
   "lastOpenFiles": [
-    "Go/ASYNC/migrate/po/po.go",
-    "Go/ASYNC/migrate/dao/delete.go",
-    "Go/ASYNC/migrate/dao/db.go",
-    "Go/ASYNC/migrate/dao/check.go",
-    "Go/ASYNC/migrate/constants/constants.go",
-    "Go/ASYNC/migrate/biz/record_migrate.go",
-    "Go/ASYNC/migrate/biz/construct_info.go",
-    "Go/ASYNC/migrate/biz/check.go",
-    "Go/ASYNC/migrate/biz/article_helper_test.go",
-    "Go/ASYNC/migrate/biz/article_helper.go",
-    "Go/ASYNC/migrate/biz/alpha_migrate.go",
-    "git/git.md",
-    "实习/code.md",
-    "Linux/base/interesting.md",
-    "Linux/base/lsof.md",
-    "Linux/net-tools/curl.md",
-    "Linux/net-tools/安装tcping.md",
-    "Linux/net-tools/frp.md",
-    "Linux/net-tools/ngrok.md",
-    "Linux/net-tools/ping.md",
-    "Linux/net-tools/SSH.md",
-    "实习/答辩稿.md",
-    "实习/自评.md",
-    "MySQL/MYSQL.md",
-    "MySQL/GORM.md",
+    "视频转码/JPEG.md",
+    "视频转码/转码.md",
+    "视频转码/视频.md",
+    "毕设/手势识别.md",
+    "毕设/《基于x266编码器的视频质量提升算法研究》.md",
+    "ffmpeg.md",
+    "视频转码/openCV.md",
+    "raft-zh_cn/raft-zh_cn.md",
+    "raft-zh_cn/README.md",
+    "raft-zh_cn/images/raft-图1.png",
+    "Latex/vqa/univlp/UniVLP.pdf",
+    "Latex/vqa/univlp/Coding.pdf",
+    "Latex/vqa/univlp/figures/transformer.png",
+    "Latex/vqa/univlp/figures/uniml.png",
+    "Latex/vqa/univlp/figures/Bert4S2SDecoder.png",
+    "Latex/vqa/univlp/figures/BertOutput.png",
+    "Latex/vqa/univlp/figures/BertLayer.png",
+    "Latex/vqa/univlp/figures/BertIntermediate.png",
+    "Latex/vqa/univlp/figures/BertAttention.png",
+    "设计模式/结构型/代理模式.md",
+    "设计模式/结构型/适配器模式.md",
+    "cppreference/c++提高/C++基础与提高-王桂林.pdf",
+    "cppreference/c++20STL/C++20 STL Cookbook 中文.pdf",
+    "cppreference/现代c++核心特性解析/chap35 可变参数模板.md",
+    "cppreference/现代c++核心特性解析/chap34 基础特性的其他优化.md",
+    "cppreference/现代c++核心特性解析/chap33 协程.md",
+    "cppreference/现代c++核心特性解析/chap31 属性说明符和标准属性.md",
+    "cppreference/现代c++核心特性解析/chap32 新增预处理器和宏.md",
+    "cppreference/现代c++核心特性解析/chap30 alignas 和 alignof.md",
+    "cppreference/现代c++核心特性解析/chap25 线程局部存储.md",
+    "cppreference/现代c++核心特性解析/chap19 static_assert声明.md",
+    "cppreference/现代c++核心特性解析/chap14 强枚举类型.md",
+    "cppreference/现代c++核心特性解析/chap10 默认和删除函数.md",
+    "cppreference/现代c++核心特性解析/现代C++ 核心特性解析.pdf",
+    "cppreference/现代c++核心特性解析/chap3 auto占位符.md",
     "Linux/base/find.md",
-    "git/Config.md",
-    "Linux/base/netstat.md",
-    "Linux/scp/scp.md",
-    "Go/超级删文迁移.md",
-    "Go/TRPC.md",
-    "MySQL/事务.md",
-    "MySQL/日期类型.md",
-    "Pasted image 20240717135625.png",
-    "Pasted image 20240715220505.png",
-    "Pasted image 20240712172107.png",
-    "Pasted image 20240712163229.png",
-    "Pasted image 20240712163023.png",
-    "Pasted image 20240711214826.png",
-    "Pasted image 20240709214715.png",
-    "Go/net http.md",
-    "Go/TODO.md",
-    "cppreference/代码质量管理.md",
-    "Pasted image 20240715220457.png",
-    "Pasted image 20240715220211.png",
-    "Pasted image 20240715215953.png"
+    "Linux/base/stat.md",
+    "Linux/shell/bash.md",
+    "未命名.md",
+    "raft-zh_cn/images/raft-图9.png",
+    "raft-zh_cn/images/raft-图8.png",
+    "raft-zh_cn/images",
+    "raft-zh_cn",
+    "kafka",
+    "redis",
+    "Latex/vqa/univlp/works.bib"
   ]
 }

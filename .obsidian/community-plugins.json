@@ -7,7 +7,6 @@
   "obsidian-outliner",
   "obsidian-admonition",
   "obsidian-language-learner",
-  "table-editor-obsidian",
   "cmenu-plugin",
   "obsidian-contextual-typography",
   "darlal-switcher-plus",
@@ -15,5 +14,6 @@
   "restore-tab-key",
   "obsidian-excalidraw-plugin",
   "obsidian-wordpress",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "table-editor-obsidian"
 ]

@@ -149,6 +149,114 @@ then
    echo "a 等于 b"
 fi
 ```
+
+## 参数展开
+
+### 字符串切片
+
+```shell
+${var:offset:number}  
+${var: length}
+
+[root@c7-server ~]# name="zhangwenlong"
+[root@c7-server ~]# echo ${name}
+zhangwenlong
+[root@c7-server ~]# echo ${name:2:5}
+angwe
+[root@c7-server ~]# echo ${name: -4}
+long
+```
+### 基于patten取子串
+
+```shell
+${var#*pattern}：在变量var的值中自左向右查询pattern，若查询到，则删除值首部至第一次出现的pattern之间的所有字符。
+
+[root@c7-server ~]# echo ${name}
+zhangwenlong
+[root@c7-server ~]# echo ${name#*wen}
+long
+[root@c7-server ~]# echo ${name}
+zhangwenlong
+```
+
+```shll
+${var##*pattern}：在变量var的值中自左向右查询pattern，若查询到，则删除值首部至最后一次出现的pattern之间的所有字符。
+
+[root@c7-server ~]# echo ${name}
+zhangwenlong
+[root@c7-server ~]# echo ${name#*n}
+gwenlong
+[root@c7-server ~]# echo ${name##*n}
+g
+
+```
+
+```she;;
+${var%pattern*}：在变量var的值中自右向左查询pattern，若查询到，则删除值尾部至第一次出现的pattern之间的所有字符。
+${var%%pattern*}：在变量var的值中自右向左查询pattern，若查询到，则删除值尾部至最后一次出现的pattern之间的所有字符。
+
+[root@c7-server ~]# echo ${name}
+zhangwenlong
+[root@c7-server ~]# echo ${name%n*}
+zhangwenlo
+[root@c7-server ~]# echo ${name%%n*}
+zha
+```
+### 查找替换
+
+```shell
+${var/PAT/SUB}：在变量var的值中从左往右查找，只有第一次出现的PAT（pattern）会被替换成SUB（substitute）。
+
+[root@c7-server ~]# echo ${userinfo}
+root:x:0:0:root:/root:/bin/bash
+[root@c7-server ~]# echo ${userinfo/r??t/centos}
+centos:x:0:0:root:/root:/bin/bash
+```
+
+```shell
+${var//PAT/SUB}：在变量var的值中从左往右查找，所有出现的PAT都会被替换成SUB。
+
+[root@c7-server ~]# echo ${userinfo}
+root:x:0:0:root:/root:/bin/bash
+[root@c7-server ~]# echo ${userinfo//r??t/centos}
+centos:x:0:0:centos:/centos:/bin/bash
+```
+```shell
+${var/#PAT/SUB}：在变量var的值中从左往右查找，只有行首出现的PAT都会被替换成SUB。
+
+[root@c7-server ~]# echo ${userinfo}
+root:x:0:0:root:/root:/bin/bash
+[root@c7-server ~]# echo ${userinfo/#r??t/centos}
+centos:x:0:0:root:/root:/bin/bash
+```
+
+
+```shell
+${var/%PAT/SUB}：在变量var的值中从左往右查找，只有行尾出现的PAT都会被替换成SUB。
+
+[root@c7-server ~]# echo ${userinfo}
+root:x:0:0:root:/root:/bin/bash
+[root@c7-server ~]# echo ${userinfo/%bash/zsh}
+root:x:0:0:root:/root:/bin/zsh
+```
+
+### 查找删除
+将`${查找替换}`中的SUB换为` `
+
+### 字符串大小写转换
+
+```shell
+${var^^}：将变量var中的所有小写字符转换成大写。
+
+${var,,}：将变量var中的所有大写字符转换成小写。
+
+[root@c7-server ~]# name=RenDanChaoXian
+[root@c7-server ~]# echo ${name^^}
+RENDANCHAOXIAN
+[root@c7-server ~]# echo ${name,,}
+rendanchaoxian
+```
+
 ## prac
 
 ### for
@@ -164,7 +272,7 @@ suffix=$(date '+%Y%m%d')
 for f in $(find ~/BASH_PRAC/ -type f -name "*.txt")
 do
     echo "备份文件 $f"
-    cp "${f}" "${f}_${suffix}"
+    cp "${f}" "${f}_${suffix""}"
 done
 
 
