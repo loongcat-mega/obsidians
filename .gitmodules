@@ -4,6 +4,3 @@
 [submodule "ffmpeg_develop_doc"]
 	path = ffmpeg_develop_doc
 	url = https://github.com/0voice/ffmpeg_develop_doc.git
-[submodule "cppreference"]
-	path = cppreference
-	url = git@github.com:loongcat-mega/cppreference.git
