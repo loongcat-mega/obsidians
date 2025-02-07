@@ -212,7 +212,7 @@ rm 命令只是删除工作区的文件，并没有删除版本库的文件
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240316095809.png)
 
 
-### 删除暂存区中的文件,保留工作区中的文件,并将此次删除提交到暂存区
+#### 删除暂存区中的文件,保留工作区中的文件,并将此次删除提交到暂存区
 `git rm --cache file`
 删除暂存区的文件，但是不删除本地文件，(git add file的东西)
 
@@ -245,6 +245,8 @@ git log -L :git_deflate_bound:zlib.c
 ```
 
 ### 版本回退
+
+[Git-工具-重置揭密](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86)
 
 `git reset `
 
@@ -381,8 +383,6 @@ feature为待变基分支，master为基分支
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240316092224.png)
 
 
-### git rm
-删除仓库内文件
 
 ### 解决冲突
 
@@ -403,11 +403,112 @@ feature为待变基分支，master为基分支
 git checkout --conflict=diff3 fn
 ```
 
+
+## 子模块
+
+适用于仓库内包含另一个仓库的场景，这种情况下git不会跟踪子模块内的.git文件
+
+### 添加子模块
+
+```shell
+git submodule add <url> [alias]
+```
+
+**添加完成之后，会看到仓库内多了一个.gitmodules文件：**
+
+```txt
+[submodule "raft"]
+	path = raft
+	url = https://github.com/maemual/raft-zh_cn.git
+[submodule "ffmpeg_develop_doc"]
+	path = ffmpeg_develop_doc
+	url = https://github.com/0voice/ffmpeg_develop_doc.git
+[submodule "cppreference"]
+	path = cppreference
+	url = https://github.com/loongcat-mega/cppreference.git
+[submodule "Algorithm"]
+	path = Algorithm
+	url = https://github.com/loongcat-mega/Algorithm.git
+```
+
+**并且.git/modules文件夹内新增文件夹：**
+
+```txt
+qingruixu@QINGRUIXU-MB1 obsidians %ls .git/modules
+Algorithm          cppreference       ffmpeg_develop_doc raft
+```
+
+**.git/config文件：**
+```txt
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:loongcat-mega/obsidians.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "raft"]
+	url = https://github.com/maemual/raft-zh_cn.git
+	active = true
+[submodule "ffmpeg_develop_doc"]
+	url = https://github.com/0voice/ffmpeg_develop_doc.git
+	active = true
+[submodule "cppreference"]
+	url = https://github.com/loongcat-mega/cppreference.git
+	active = true
+[submodule "Algorithm"]
+	url = https://github.com/loongcat-mega/Algorithm.git
+	active = true
+```
+
+### 更新子模块
+
+如果添加子模块之后，模块内没有内容，则执行更新子模块：
+```shell
+git submodule update --init --recursive
+```
+### 删除子模块
+
+#### 删除子模块文件夹
+
+```shell
+git rm --cached <path>
+rm -rf <path>
+```
+
+#### 删除 .gitmodules 文件中相关子模块的信息
+
+#### 删除 .git/config 中相关子模块信息
+
+#### 删除 .git/modules文件夹中的相关子模块信息
+
+### clone 包含子模块的项目
+
+一步到位：
+```shell
+git clone --recursive <url>
+```
+
+或者先克隆主仓库，再更新子模块
+
+```shell
+git clone <url>
+
+git submodule init
+git submodule update
+(git submodule update --init --recursive)
+```
+
 ## 远程仓库
 
 ### 连接远程仓库  
 `git remote add origin url`
-
 
 ### 查看远程连接
 `git remote -v`
