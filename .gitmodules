@@ -11,11 +11,11 @@
 	path = Algorithm
 	url = https://github.com/loongcat-mega/Algorithm.git
 [submodule "三高系统/限流算法/ratelimit"]
-	path = 三高系统/ratelimit
+	path = highPAES/ratelimit
 	url = https://github.com/juju/ratelimit.git
 [submodule "三高系统/gobreaker"]
-	path = 三高系统/gobreaker
+	path = highPAES/gobreaker
 	url = https://github.com/sony/gobreaker.git
 [submodule "三高系统/retry"]
-	path = 三高系统/retry
+	path = highPAES/retry
 	url = https://github.com/shengyanli1982/retry.git
