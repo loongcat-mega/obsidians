@@ -38,21 +38,6 @@
             }
           },
           {
-            "id": "68a89cdbeebe33fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "三高系统/限流算法/令牌桶.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "令牌桶"
-            }
-          },
-          {
             "id": "ed20223f9b2922fc",
             "type": "leaf",
             "state": {
@@ -173,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -266,10 +251,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三高系统/限流算法/令牌桶.md"
+                "file": "Linux/base/grep.md"
               },
               "icon": "lucide-list",
-              "title": "令牌桶 的大纲"
+              "title": "grep 的大纲"
             }
           },
           {
@@ -291,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "三高系统/限流算法/令牌桶.md",
+                "file": "Linux/base/grep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +286,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "令牌桶 的反向链接列表"
+              "title": "grep 的反向链接列表"
             }
           }
         ],
@@ -327,27 +312,27 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "68a89cdbeebe33fc",
+  "active": "5da4eafdeeb6ddcb",
   "lastOpenFiles": [
+    "三高系统/限流算法/令牌桶.md",
+    "三高系统/限流算法/计数器.md",
+    "三高系统/流量治理.md",
+    "三高系统/ratelimit/reader.go",
+    "三高系统/ratelimit/ratelimit_test.go",
+    "三高系统/ratelimit/ratelimit.go",
+    "三高系统/ratelimit/README.md",
+    "三高系统/ratelimit/LICENSE",
+    "三高系统/ratelimit",
+    "三高系统/熔断器",
+    "三高系统/高可用高性能易扩展.md",
+    "gobreaker",
     "三高系统/gobreaker/v2/example/http_breaker.go",
     "三高系统/gobreaker/v2/redis_store.go",
     "三高系统/gobreaker/v2/gobreaker_test.go",
-    "三高系统/gobreaker/v2/gobreaker.go",
-    "三高系统/gobreaker/v2/go.sum",
-    "三高系统/gobreaker/v2/go.mod",
-    "三高系统/gobreaker/v2/example",
-    "三高系统/gobreaker/v2/distributed_gobreaker_test.go",
-    "三高系统/gobreaker/v2/distributed_gobreaker.go",
-    "三高系统/gobreaker/v2",
-    "三高系统/gobreaker/gobreaker_test.go",
     "三高系统/gobreaker/README.md",
     "三高系统/限流算法/ratelimit/README.md",
-    "三高系统/限流算法/令牌桶.md",
-    "三高系统/限流算法/计数器.md",
     "三高系统/限流算法/漏桶.md",
     "Algorithm/for && auto.md",
-    "三高系统/流量治理.md",
-    "三高系统/高可用高性能易扩展.md",
     "Linux/base/文件.md",
     "ffmpeg_develop_doc/ffmpeg源码example解析之decode_audio.md",
     "ffmpeg_develop_doc/FFmpeg源码分析：内存管理系统.md",
@@ -365,7 +350,6 @@
     "Algorithm/高精度/高精度除法(模除).md",
     "Algorithm/高精度/高精度除法(保留小数).md",
     "Algorithm/高精度/高精度快速幂.md",
-    "Algorithm/高精度/高精度加法.md",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
     "raft/images/raft-图8.png",

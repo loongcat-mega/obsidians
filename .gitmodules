@@ -11,7 +11,7 @@
 	path = Algorithm
 	url = https://github.com/loongcat-mega/Algorithm.git
 [submodule "三高系统/限流算法/ratelimit"]
-	path = 三高系统/限流算法/ratelimit
+	path = 三高系统/ratelimit
 	url = https://github.com/juju/ratelimit.git
 [submodule "三高系统/gobreaker"]
 	path = 三高系统/gobreaker
