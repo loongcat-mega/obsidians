@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "三高系统/限流算法/令牌桶.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "令牌桶"
             }
           },
           {
@@ -192,7 +192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "macos",
+                "query": "正则",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -240,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50247192382812
+    "width": 310.5
   },
   "right": {
     "id": "58edbd8714a9e505",
@@ -266,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md"
+                "file": "三高系统/限流算法/令牌桶.md"
               },
               "icon": "lucide-list",
-              "title": "git 的大纲"
+              "title": "令牌桶 的大纲"
             }
           },
           {
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git.md",
+                "file": "三高系统/限流算法/令牌桶.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +301,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "git 的反向链接列表"
+              "title": "令牌桶 的反向链接列表"
             }
           }
         ],
@@ -309,7 +309,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,48 +323,49 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-language-learner:打开新词面板": false
+      "obsidian-language-learner:打开新词面板": false,
+      "vscode-editor:新建代码文件": false
     }
   },
   "active": "68a89cdbeebe33fc",
   "lastOpenFiles": [
+    "三高系统/gobreaker/v2/example/http_breaker.go",
+    "三高系统/gobreaker/v2/redis_store.go",
+    "三高系统/gobreaker/v2/gobreaker_test.go",
+    "三高系统/gobreaker/v2/gobreaker.go",
+    "三高系统/gobreaker/v2/go.sum",
+    "三高系统/gobreaker/v2/go.mod",
+    "三高系统/gobreaker/v2/example",
+    "三高系统/gobreaker/v2/distributed_gobreaker_test.go",
+    "三高系统/gobreaker/v2/distributed_gobreaker.go",
+    "三高系统/gobreaker/v2",
+    "三高系统/gobreaker/gobreaker_test.go",
+    "三高系统/gobreaker/README.md",
+    "三高系统/限流算法/ratelimit/README.md",
+    "三高系统/限流算法/令牌桶.md",
+    "三高系统/限流算法/计数器.md",
+    "三高系统/限流算法/漏桶.md",
+    "Algorithm/for && auto.md",
+    "三高系统/流量治理.md",
+    "三高系统/高可用高性能易扩展.md",
+    "Linux/base/文件.md",
+    "ffmpeg_develop_doc/ffmpeg源码example解析之decode_audio.md",
+    "ffmpeg_develop_doc/FFmpeg源码分析：内存管理系统.md",
+    "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
+    "ffmpeg_develop_doc/Linux上的ffmpeg完全使用指南.md",
+    "正则表达式.md",
+    "Linux/字符串操作.md",
+    "Linux/文件操作.md",
+    "Linux/utils/new.md",
+    "Linux/utils/root.md",
+    "Linux/utils/vim.md",
+    "Linux/utils/makefile.md",
+    "git/git.md",
+    "ffmpeg.md",
     "Algorithm/高精度/高精度除法(模除).md",
     "Algorithm/高精度/高精度除法(保留小数).md",
     "Algorithm/高精度/高精度快速幂.md",
     "Algorithm/高精度/高精度加法.md",
-    "Algorithm/高精度/高精度减法.md",
-    "Algorithm/高精度/高精度乘法(逐位相乘实现).md",
-    "Algorithm/高精度/高精度乘法(模拟二进制乘法).md",
-    "Algorithm/高精度",
-    "Algorithm/菲波那切数列 矩阵加速递推.md",
-    "Algorithm/算法/移动0.md",
-    "Algorithm/算法/最大连续子数组和.md",
-    "Algorithm/算法/数组加1.md",
-    "Algorithm/算法/删除有序数组中重复项.md",
-    "Algorithm/算法/上升区间高度和.md",
-    "Algorithm/算法",
-    "Algorithm/数据结构/排序/快速排序/荷兰国旗问题.md",
-    "Algorithm/数据结构/排序/快速排序/快速排序3.0随机快排.md",
-    "Algorithm/数据结构/排序/快速排序/快排非递归.md",
-    "Algorithm/数据结构/排序/归并排序/归并排序.md",
-    "Algorithm/数据结构/排序/归并排序/归并04 子数组和.md",
-    "Algorithm/数据结构/排序/归并排序/归并03 比右侧两倍大.md",
-    "Algorithm/数据结构/排序/归并排序/归并02 逆序对.md",
-    "Algorithm/数据结构/排序/归并排序/归并01 小和.md",
-    "Algorithm/数据结构/排序/堆/最大线段重合问题.md",
-    "Algorithm/数据结构/排序/堆/堆的创建.md",
-    "Algorithm/数据结构/排序/基数排序/基数排序.md",
-    "Algorithm/数据结构/队列与栈/队列结构实现栈结构.md",
-    "Algorithm/数据结构/队列与栈/栈结构实现队列结构.md",
-    "Algorithm/数据结构/排序/快速排序",
-    "Algorithm/数据结构/排序/归并排序",
-    "Algorithm/数据结构/排序/堆",
-    "Algorithm/数据结构/排序/基数排序",
-    "Algorithm/数据结构/队列与栈",
-    "Algorithm/数据结构/链表",
-    "Algorithm/数据结构/递归",
-    "Algorithm/数据结构/树",
-    "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
     "raft/images/raft-图8.png",
