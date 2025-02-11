@@ -19,3 +19,12 @@
 [submodule "三高系统/retry"]
 	path = highPAES/retry
 	url = https://github.com/shengyanli1982/retry.git
+[submodule "bilibilitech/neighborhash"]
+	path = bilibilitech/neighborhash
+	url = https://github.com/slow-steppers/NeighborHash.git
+[submodule "stl4go"]
+	path = stl4go
+	url = https://github.com/chen3feng/stl4go.git
+[submodule "cloudwego/netpoll"]
+	path = cloudwego/netpoll
+	url = https://github.com/cloudwego/netpoll.git

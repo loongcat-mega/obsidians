@@ -28,7 +28,7 @@ go.mod 提供了四个命令
 - module：语句指定包的名字（路径）
 - require：指定的依赖项模块
 - replace：替换依赖项模块
-- exclude：忽略依赖项模块
+- cl：忽略依赖项模块
 
 
 go module 安装package的原则是先拉最新的release tag，若无tag则拉最新的commit，go会自动生成一个go.sum文件来记录dependdency tree
