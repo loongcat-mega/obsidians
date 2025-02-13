@@ -26,12 +26,12 @@
             "id": "5da4eafdeeb6ddcb",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "pdf",
               "state": {
-                "file": "stl4go/skiplist.go"
+                "file": "The Go Programming Language Specification - The Go Programming Language.pdf"
               },
-              "icon": "lucide-file",
-              "title": "skiplist"
+              "icon": "lucide-file-text",
+              "title": "The Go Programming Language Specification - The Go Programming Language"
             }
           },
           {
@@ -248,10 +248,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "stl4go/skiplist.go"
+                "file": "The Go Programming Language Specification - The Go Programming Language.pdf"
               },
               "icon": "lucide-list",
-              "title": "skiplist 的大纲"
+              "title": "The Go Programming Language Specification - The Go Programming Language 的大纲"
             }
           },
           {
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stl4go/skiplist.go",
+                "file": "The Go Programming Language Specification - The Go Programming Language.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "skiplist 的反向链接列表"
+              "title": "The Go Programming Language Specification - The Go Programming Language 的反向链接列表"
             }
           }
         ],
@@ -310,50 +310,51 @@
   },
   "active": "5da4eafdeeb6ddcb",
   "lastOpenFiles": [
-    "stl4go/skiplist.md",
+    "ffmpeg.md",
+    "The Go Programming Language Specification - The Go Programming Language.pdf",
+    "highPAES/retry/backoff.go",
+    "highPAES/retry/retry.go",
+    "Go/go-programming.md",
+    "Go/net http.md",
+    "Go/package.md",
+    "Go/gorm.md",
+    "Go/GoBase.md",
+    "Go/Golang101-v1.22.a.pdf-ForPrinting.pdf",
+    "Go/go module.md",
     "stl4go/skiplist.go",
+    "go-redis/version.go",
+    "go-redis/universal_test.go",
+    "go-redis/universal.go",
+    "go-redis/tx_test.go",
+    "go-redis/tx.go",
+    "go-redis/extra/redisprometheus/README.md",
+    "go-redis/extra/redisotel/README.md",
+    "go-redis/example/otel/image/redis-trace.png",
+    "go-redis/example/otel/image/metrics.png",
+    "go-redis/example/scan-struct/README.md",
+    "go-redis/example/redis-bloom/README.md",
+    "go-redis/example/lua-scripting/README.md",
+    "go-redis/example/otel/README.md",
+    "go-redis/example/hll/README.md",
+    "go-redis/example/del-keys-without-ttl/README.md",
+    "go-redis/doctests/README.md",
+    "go-redis/RELEASING.md",
+    "go-redis/README.md",
+    "go-redis/CONTRIBUTING.md",
+    "go-redis/CHANGELOG.md",
+    "stl4go/skiplist.md",
     "git/git.md",
-    "cloudwego/netpoll/test_conns.sh",
-    "cloudwego/netpoll/sys_zerocopy_linux.go",
-    "cloudwego/netpoll/sys_zerocopy_bsd.go",
-    "cloudwego/netpoll/sys_sockopt_linux.go",
-    "cloudwego/netpoll/sys_sockopt_bsd.go",
-    "cloudwego/netpoll/sys_sendmsg_linux.go",
-    "cloudwego/netpoll/sys_sendmsg_bsd.go",
-    "cloudwego/netpoll/sys_keepalive_unix.go",
-    "cloudwego/netpoll/sys_keepalive_openbsd.go",
     "cloudwego/netpoll/docs/reference/explain.md",
     "cloudwego/netpoll/docs/reference/design_en.md",
     "cloudwego/netpoll/docs/reference/design_cn.md",
     "cloudwego/netpoll/docs/guide/guide_en.md",
-    "cloudwego/netpoll/docs/guide/guide_cn.md",
-    "cloudwego/netpoll/README_CN.md",
-    "cloudwego/netpoll/README.md",
-    "cloudwego/netpoll/CONTRIBUTING.md",
-    "cloudwego/netpoll/CODE_OF_CONDUCT.md",
-    "Go/go module.md",
-    "stl4go/heap.md",
-    "stl4go/generated_doc.md",
-    "stl4go/README_zh.md",
-    "stl4go/README.md",
-    "Go/trpc.md",
-    "bilibilitech/neighborhash/README.md",
-    "highPAES/gobreaker/README.md",
-    "Linux/base/grep.md",
     "highPAES/retry/assets/logo.png",
-    "highPAES/ratelimit/README.md",
-    "highPAES/retry/README_CN.md",
-    "highPAES/retry/README.md",
-    "highPAES/高可用高性能易扩展.md",
-    "highPAES/流量治理.md",
     "三高系统/retry/assets/logo.png",
     "retry/assets/logo.png",
     "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
     "raft/images/raft-图8.png",
-    "raft/images/raft-图7.png",
-    "raft/images/raft-图6.png",
-    "raft/images/raft-图5.png"
+    "raft/images/raft-图7.png"
   ]
 }

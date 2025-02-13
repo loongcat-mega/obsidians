@@ -28,3 +28,6 @@
 [submodule "cloudwego/netpoll"]
 	path = cloudwego/netpoll
 	url = https://github.com/cloudwego/netpoll.git
+[submodule "go-redis"]
+	path = go-redis
+	url = https://github.com/redis/go-redis.git
