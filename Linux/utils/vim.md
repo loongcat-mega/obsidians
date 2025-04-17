@@ -11,7 +11,7 @@
 
 
 ```text
- set cursorline   "突出显示当前行
+ set cursorline   "突出显示当前行uu
  set nu 显示行号
  set ruler        "在右下角显示光标位置的状态行
 

@@ -100,3 +100,61 @@ func (p *ConnPool) tryDial() {
 }
 ```
 重试：固定时间间隔的退避策略
+
+
+```go
+// BytesToString converts byte slice to string.
+func BytesToString(b []byte) string {  
+    return *(*string)(unsafe.Pointer(&b))  
+}  
+  
+// StringToBytes converts string to byte slice.
+func StringToBytes(s string) []byte {  
+    return *(*[]byte)(unsafe.Pointer(  
+       &struct {  
+          string  
+          Cap int  
+       }{s, len(s)},  
+    ))  
+}
+```
+string与byte转换
+
+
+```go
+func Sleep(ctx context.Context, dur time.Duration) error {  
+    t := time.NewTimer(dur)  
+    defer t.Stop()  
+  
+    select {  
+    case <-t.C:  
+       return nil  
+    case <-ctx.Done():  
+       return ctx.Err()  
+    }  
+}
+```
+带有ctx的sleep,重试时使用
+
+
+```go
+func (o *Once) Do(f func() error) error {  
+    if atomic.LoadUint32(&o.done) == 1 {  
+       return nil  
+    }  
+    // Slow-path.  
+    o.m.Lock()  
+    defer o.m.Unlock()  
+    var err error  
+    if o.done == 0 {  
+       err = f()  
+       if err == nil {  
+          atomic.StoreUint32(&o.done, 1)  
+       }  
+    }  
+    return err  
+}
+```
+once.do
+
+使用 Buffer 拼接字符串

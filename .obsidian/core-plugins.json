@@ -27,5 +27,6 @@
   "sync": true,
   "canvas": false,
   "properties": false,
-  "bookmarks": true
+  "bookmarks": true,
+  "webviewer": false
 }

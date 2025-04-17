@@ -15,7 +15,13 @@ scp local_file remote_ip:remote_file
 
 将当前的目录递归拷贝到远程服务器md/目录
 scp -r ./mindspore_md/ root@47.95.4.132:~/md
+
+scp -r -P 31998 ./u  root@link-qhd-ks.lanyun.net:/root/real-esrgan/Real-ESRGAN
 ```
+
+
+
+Design of Smart Home Control System Driven by Gesture Recognition
 
 ### 从远程复制到本地
 
@@ -23,4 +29,6 @@ scp -r ./mindspore_md/ root@47.95.4.132:~/md
 ```bash
 将远程服务器的文件递归复制到当前目录，使用端口51371
 scp -r -P 51371 root@region-45.autodl.pro:~/autodl-tmp/mindspore_md ./
+
+scp -r -P 31998 root@link-qhd-ks.lanyun.net:/root/unsharp/cases ./
 ```

@@ -4,158 +4,131 @@
     "type": "split",
     "children": [
       {
-        "id": "27e632fe3d56d1b6",
+        "id": "fce198907b08fc27",
         "type": "tabs",
         "children": [
           {
-            "id": "1cfbc10dd1e37f24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/bash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bash"
-            }
-          },
-          {
-            "id": "5da4eafdeeb6ddcb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "The Go Programming Language Specification - The Go Programming Language.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "The Go Programming Language Specification - The Go Programming Language"
-            }
-          },
-          {
-            "id": "ed20223f9b2922fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/base/stat.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "stat"
-            }
-          },
-          {
-            "id": "45e2dc1f6db19f69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "20d5d5098417ade0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/bash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bash"
-            }
-          },
-          {
-            "id": "92be9c664b1abb41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "8ee837e8252c355f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/base/find.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "find"
-            }
-          },
-          {
-            "id": "3a4d917d092041a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "视频转码/JPEG.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JPEG"
-            }
-          },
-          {
-            "id": "8d27b089c2eb2601",
+            "id": "8f368eadcbf92b60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ffmpeg.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "ffmpeg"
             }
           },
           {
-            "id": "d844a90a757399f2",
+            "id": "f9f599aa699495b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/base/文件.md",
+                "file": "Linux/utils/vim.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "文件"
+              "title": "vim"
+            }
+          },
+          {
+            "id": "14029110c4325a87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "git"
+            }
+          },
+          {
+            "id": "b4c02a0958ef0732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "分布式/分布式id生成.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "分布式id生成"
+            }
+          },
+          {
+            "id": "84d54c99c6a985d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计模式/创建型模式/单例模式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "单例模式"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则",
+                "query": "socket",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -191,7 +164,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -203,8 +177,8 @@
             "state": {
               "type": "langr-search-panel",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "book",
+              "title": "查词面板"
             }
           },
           {
@@ -248,10 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Go Programming Language Specification - The Go Programming Language.pdf"
+                "file": "分布式/分布式id生成.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "The Go Programming Language Specification - The Go Programming Language 的大纲"
+              "title": "分布式id生成 的大纲"
             }
           },
           {
@@ -273,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Go Programming Language Specification - The Go Programming Language.pdf",
+                "file": "Linux/base/文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +260,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "The Go Programming Language Specification - The Go Programming Language 的反向链接列表"
+              "title": "文件 的反向链接列表"
             }
           }
         ],
@@ -308,46 +285,46 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "5da4eafdeeb6ddcb",
+  "active": "b4c02a0958ef0732",
   "lastOpenFiles": [
+    "分布式/一致性哈希.md",
+    "分布式/分布式id生成.md",
+    "Linux/sys/进程.md",
+    "未命名 1.md",
+    "分布式",
+    "Linux/sys/线程.md",
+    "Linux/WebServer/websocket.md",
+    "Linux/WebServer/Chat/socket.md",
+    "cloudwego/netpoll/README.md",
+    "Linux/WebServer/Chat/聊天软件设计.md",
+    "ffmpeg_develop_doc/iOS资料/iOS 系统架构及常用框架.md",
+    "mysql/MYSQL.md",
+    "毕设/手势识别.md",
+    "Linux/utils/root.md",
+    "Linux/shell/base.md",
+    "Linux/base/文件.md",
+    "Linux/base/sort.md",
+    "设计模式/创建型模式/单例模式.md",
+    "Docker.md",
+    "Linux/utils/前后台调度.md",
+    "未命名.md",
     "ffmpeg.md",
+    "git/git.md",
+    "git/Config.md",
+    "Linux/utils/vim.md",
+    "code.md",
+    "正则表达式.md",
+    "Excalidraw/软工软件架构.excalidraw",
+    "Excalidraw/碰检.excalidraw",
+    "Excalidraw/基于符号表和立即数的计算器.excalidraw",
+    "Excalidraw/非线性模型.excalidraw",
+    "trpc",
+    "goredis",
     "The Go Programming Language Specification - The Go Programming Language.pdf",
     "highPAES/retry/backoff.go",
     "highPAES/retry/retry.go",
-    "Go/go-programming.md",
-    "Go/net http.md",
-    "Go/package.md",
-    "Go/gorm.md",
-    "Go/GoBase.md",
-    "Go/Golang101-v1.22.a.pdf-ForPrinting.pdf",
-    "Go/go module.md",
-    "stl4go/skiplist.go",
-    "go-redis/version.go",
-    "go-redis/universal_test.go",
-    "go-redis/universal.go",
-    "go-redis/tx_test.go",
-    "go-redis/tx.go",
-    "go-redis/extra/redisprometheus/README.md",
-    "go-redis/extra/redisotel/README.md",
     "go-redis/example/otel/image/redis-trace.png",
     "go-redis/example/otel/image/metrics.png",
-    "go-redis/example/scan-struct/README.md",
-    "go-redis/example/redis-bloom/README.md",
-    "go-redis/example/lua-scripting/README.md",
-    "go-redis/example/otel/README.md",
-    "go-redis/example/hll/README.md",
-    "go-redis/example/del-keys-without-ttl/README.md",
-    "go-redis/doctests/README.md",
-    "go-redis/RELEASING.md",
-    "go-redis/README.md",
-    "go-redis/CONTRIBUTING.md",
-    "go-redis/CHANGELOG.md",
-    "stl4go/skiplist.md",
-    "git/git.md",
-    "cloudwego/netpoll/docs/reference/explain.md",
-    "cloudwego/netpoll/docs/reference/design_en.md",
-    "cloudwego/netpoll/docs/reference/design_cn.md",
-    "cloudwego/netpoll/docs/guide/guide_en.md",
     "highPAES/retry/assets/logo.png",
     "三高系统/retry/assets/logo.png",
     "retry/assets/logo.png",
