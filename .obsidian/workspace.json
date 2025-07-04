@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/utils/vim.md",
+                "file": "Linux/base/文件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "vim"
+              "title": "文件"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分布式/分布式id生成.md",
+                "file": "mysql/InnoDB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "分布式id生成"
+              "title": "InnoDB"
+            }
+          },
+          {
+            "id": "f0e855494ace7633",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raft/raft-zh_cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "raft-zh_cn"
+            }
+          },
+          {
+            "id": "084cb9c1c7baa8e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "毕设/changeLog.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "changeLog"
+            }
+          },
+          {
+            "id": "fa0dacaa10020363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "毕设/随想.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "随想"
+            }
+          },
+          {
+            "id": "df2b1006891f488b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Docker"
             }
           },
           {
@@ -128,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -147,7 +243,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "socket",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -222,13 +318,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分布式/分布式id生成.md",
+                "file": "Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "分布式id生成 的大纲"
+              "title": "Docker 的大纲"
             }
           },
           {
@@ -285,44 +381,45 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b4c02a0958ef0732",
+  "active": "df2b1006891f488b",
   "lastOpenFiles": [
-    "分布式/一致性哈希.md",
-    "分布式/分布式id生成.md",
-    "Linux/sys/进程.md",
-    "未命名 1.md",
-    "分布式",
-    "Linux/sys/线程.md",
-    "Linux/WebServer/websocket.md",
-    "Linux/WebServer/Chat/socket.md",
-    "cloudwego/netpoll/README.md",
-    "Linux/WebServer/Chat/聊天软件设计.md",
-    "ffmpeg_develop_doc/iOS资料/iOS 系统架构及常用框架.md",
-    "mysql/MYSQL.md",
-    "毕设/手势识别.md",
-    "Linux/utils/root.md",
-    "Linux/shell/base.md",
-    "Linux/base/文件.md",
-    "Linux/base/sort.md",
     "设计模式/创建型模式/单例模式.md",
+    "Linux/base/文件.md",
+    "Linux/utils/vim.md",
     "Docker.md",
-    "Linux/utils/前后台调度.md",
-    "未命名.md",
-    "ffmpeg.md",
+    "Linux/utils/ncdu.md",
+    "Linux/sys/磁盘管理.md",
+    "Linux/ce/逆向.md",
     "git/git.md",
     "git/Config.md",
-    "Linux/utils/vim.md",
-    "code.md",
-    "正则表达式.md",
+    "毕设/随想.md",
+    "毕设/稿.md",
+    "毕设/changeLog.md",
+    "毕设/《基于x266编码器的视频质量提升算法研究》.md",
+    "毕设/接口设计.md",
+    "毕设/静态手势识别.md",
+    "毕设/手势识别.md",
+    "毕设/优势.md",
+    "毕设/miio.md",
+    "Go/Go高级编程/未命名.md",
+    "Go/GoBase.md",
+    "Go/Go高级编程",
+    "Go/go-programming.md",
+    "Go/go module.md",
+    "Go/1brc.md",
+    "Go/package.md",
+    "Go/bufio/bufio.md",
+    "Go/qa.md",
+    "Go/bufio",
+    "raft/images/raft-图1.png",
+    "highPAES/ratelimit/reader.go",
+    "highPAES/ratelimit/ratelimit.go",
+    "highPAES/retry/retry.go",
+    "highPAES/retry/backoff.go",
+    "highPAES/gobreaker/gobreaker.go",
+    "分布式",
     "Excalidraw/软工软件架构.excalidraw",
     "Excalidraw/碰检.excalidraw",
-    "Excalidraw/基于符号表和立即数的计算器.excalidraw",
-    "Excalidraw/非线性模型.excalidraw",
-    "trpc",
-    "goredis",
-    "The Go Programming Language Specification - The Go Programming Language.pdf",
-    "highPAES/retry/backoff.go",
-    "highPAES/retry/retry.go",
     "go-redis/example/otel/image/redis-trace.png",
     "go-redis/example/otel/image/metrics.png",
     "highPAES/retry/assets/logo.png",
@@ -331,7 +428,6 @@
     "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
     "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
     "raft/images/raft-图9.png",
-    "raft/images/raft-图8.png",
-    "raft/images/raft-图7.png"
+    "raft/images/raft-图8.png"
   ]
 }

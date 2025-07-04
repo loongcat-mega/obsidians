@@ -383,9 +383,59 @@ COPY [host_sour] [docker_dest]
 用于运行程序，与RUN不同的是，CMD是在docker run时运行，RUN是在docker build时运行
 只有最后一个CMD命令生效
 
+# 迁移 docker 数据
+
+```txt
+# 停止 Docker 服务 
+systemctl stop docker.socket
+systemctl stop docker
+
+# 创建新目录（确保目标磁盘有足够空间）
+mkdir -p /opt/docker 
+
+# 复制原有数据（可能需要较长时间） 
+rsync -avz /data/docker/lib/ /opt/docker/
+
+# 备份原目录
+tar xzvf /backup/docker.backup /data/docker/lib
+
+# 修改 Docker 配置指向新目录 
+echo '{"data-root": "/opt/docker"}' > /etc/docker/daemon.json 
+
+# 启动 Docker 服务 
+systemctl start docker 
+
+# 验证是否生效 
+docker info | grep "Docker Root Dir"
+
+rm -rf /data/docker/
+```
+
+# 核心结构
+
+1. data/docker/image/overlay2/repositories.json
+在 Docker 中，`/data/docker/image/overlay2/repositories.json` 是一个**核心元数据文件**，它记录了当前 Docker 主机中所有镜像的索引信息。它的作用类似于一个“目录簿”，告诉 Docker 哪些镜像存在、它们的名称、标签、以及对应的存储层数据在哪里。如果这个文件损坏或丢失，Docker 将无法识别已有的镜像，导致 `docker images` 显示为空
+
+- `repositories.json` 是镜像名称（如 `nginx:latest`）到 `sha256` 文件的映射表。
+- ​**工作流程**​：
+    1. 用户运行 `docker images` → Docker 读取 `repositories.json` 获取镜像列表。
+    2. 根据 `sha256` 值（如 `2d...`）到 `imagedb/content/sha256/` 查找具体配置。
+    3. 结合 `overlay2/` 下的分层数据加载镜像。
+
+2. /data/docker/image/overlay2/imagedb/content/sha256/
+在 Docker 中，`/data/docker/image/overlay2/imagedb/content/sha256/` 是一个**核心元数据目录**，用于存储所有镜像的详细配置信息（JSON 格式）。它的作用类似于镜像的“身份证档案库”，记录了每个镜像的完整定义（如环境变量、启动命令、分层结构等），是 Docker 正确识别和管理镜像的关键。
 
 
+3. etc/docker/daemon.json
+`/etc/docker/daemon.json` 是 Docker 的核心配置文件，用于自定义 Docker 守护进程（`dockerd`）的行为。它的作用类似于 Docker 的“控制中心”，允许管理员调整存储驱动、网络设置、镜像拉取策略等关键参数
+```json
+{
+  "data-root": "/new/docker",  // 将默认的 /var/lib/docker 改为其他路径
+  "storage-driver": "overlay2",  // 默认推荐
+  "storage-opts": ["size=50GB"],  // 限制存储大小
+}
 
+```
 
 # MYSQL
 
