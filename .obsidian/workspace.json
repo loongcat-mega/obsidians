@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "a1f7337f6a8f02e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learnDoc/雪花算法生成 id.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "雪花算法生成 id"
-            }
-          },
-          {
             "id": "84d54c99c6a985d9",
             "type": "leaf",
             "state": {
@@ -224,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -318,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learnDoc/雪花算法生成 id.md",
+                "file": "分布式/分布式id生成.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "雪花算法生成 id 的大纲"
+              "title": "分布式id生成 的大纲"
             }
           },
           {
@@ -381,9 +357,16 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "a1f7337f6a8f02e0",
+  "active": "fa0dacaa10020363",
   "lastOpenFiles": [
+    "goredis/reader.md",
     "分布式/分布式id生成.md",
+    "WinOp/chocolatey.md",
+    "WinOp/WSL.md",
+    "WinOp/Traceroute.md",
+    "WinOp/FTP 命令行.md",
+    "WinOp/cl.md",
+    "WinOp/CMD命令行.md",
     "learnDoc/雪花算法生成 id.md",
     "mysql/事务.md",
     "learnDoc",
@@ -405,19 +388,12 @@
     "OpenAi.md",
     "Docker.md",
     "正则表达式.md",
-    "code.md",
-    "代码质量管理.md",
-    "未命名.md",
-    "DateNoteBook/智慧港口.md",
-    "DateNoteBook/2022-12-21.md",
     "Excalidraw/R语言.excalidraw",
     "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
     "Excalidraw/软工软件架构.excalidraw",
     "Excalidraw/碰检.excalidraw",
     "Excalidraw/基于符号表和立即数的计算器.excalidraw",
     "Excalidraw/非线性模型.excalidraw",
-    "Linux/base/grep.md",
-    "git/git.md",
     "Go/Go高级编程",
     "raft/images/raft-图1.png",
     "go-redis/example/otel/image/redis-trace.png",

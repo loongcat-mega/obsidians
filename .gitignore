@@ -1,3 +1,4 @@
 *.trash
 *.history
-.obsidian/plugins/*
+.obsidian/plugins/remember-cursor-position/
+
