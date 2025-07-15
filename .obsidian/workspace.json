@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "毕设/随想.md",
+                "file": "分布式/分布式id生成.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "随想"
+              "title": "分布式id生成"
             }
           },
           {
-            "id": "df2b1006891f488b",
+            "id": "a1f7337f6a8f02e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "learnDoc/雪花算法生成 id.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "雪花算法生成 id"
             }
           },
           {
@@ -318,13 +318,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md",
+                "file": "learnDoc/雪花算法生成 id.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Docker 的大纲"
+              "title": "雪花算法生成 id 的大纲"
             }
           },
           {
@@ -381,45 +381,45 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "df2b1006891f488b",
+  "active": "a1f7337f6a8f02e0",
   "lastOpenFiles": [
-    "设计模式/创建型模式/单例模式.md",
-    "Linux/base/文件.md",
-    "Linux/utils/vim.md",
-    "Docker.md",
-    "Linux/utils/ncdu.md",
-    "Linux/sys/磁盘管理.md",
-    "Linux/ce/逆向.md",
-    "git/git.md",
-    "git/Config.md",
-    "毕设/随想.md",
-    "毕设/稿.md",
-    "毕设/changeLog.md",
-    "毕设/《基于x266编码器的视频质量提升算法研究》.md",
-    "毕设/接口设计.md",
-    "毕设/静态手势识别.md",
-    "毕设/手势识别.md",
-    "毕设/优势.md",
+    "分布式/分布式id生成.md",
+    "learnDoc/雪花算法生成 id.md",
+    "mysql/事务.md",
+    "learnDoc",
     "毕设/miio.md",
-    "Go/Go高级编程/未命名.md",
-    "Go/GoBase.md",
-    "Go/Go高级编程",
-    "Go/go-programming.md",
-    "Go/go module.md",
-    "Go/1brc.md",
-    "Go/package.md",
-    "Go/bufio/bufio.md",
-    "Go/qa.md",
-    "Go/bufio",
-    "raft/images/raft-图1.png",
-    "highPAES/ratelimit/reader.go",
-    "highPAES/ratelimit/ratelimit.go",
-    "highPAES/retry/retry.go",
-    "highPAES/retry/backoff.go",
-    "highPAES/gobreaker/gobreaker.go",
-    "分布式",
+    "毕设/changeLog.md",
+    "毕设/优势.md",
+    "毕设/随想.md",
+    "毕设/手势识别.md",
+    "毕设/静态手势识别.md",
+    "毕设/接口设计.md",
+    "毕设/稿.md",
+    "设计模式/创建型模式/单例模式.md",
+    "设计模式/策略模式.md",
+    "设计模式/创建型模式/工厂模式.md",
+    "bilibilitech/neighborhash/README.md",
+    "cppreference/从零开始详细介绍CMake.pdf",
+    "ffmpeg.md",
+    "The Go Programming Language Specification - The Go Programming Language.pdf",
+    "OpenAi.md",
+    "Docker.md",
+    "正则表达式.md",
+    "code.md",
+    "代码质量管理.md",
+    "未命名.md",
+    "DateNoteBook/智慧港口.md",
+    "DateNoteBook/2022-12-21.md",
+    "Excalidraw/R语言.excalidraw",
+    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
     "Excalidraw/软工软件架构.excalidraw",
     "Excalidraw/碰检.excalidraw",
+    "Excalidraw/基于符号表和立即数的计算器.excalidraw",
+    "Excalidraw/非线性模型.excalidraw",
+    "Linux/base/grep.md",
+    "git/git.md",
+    "Go/Go高级编程",
+    "raft/images/raft-图1.png",
     "go-redis/example/otel/image/redis-trace.png",
     "go-redis/example/otel/image/metrics.png",
     "highPAES/retry/assets/logo.png",

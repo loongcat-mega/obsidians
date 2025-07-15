@@ -566,3 +566,26 @@ sudo systemctl restart docker
 ## 下载官方docker
 ##docker pull swr.cn-south-1.myhuaweicloud.com/mindspore/mindspore-gpu-cuda11.6:2.1.1
 ```
+## GeekTime
+```sh
+git clone https://github.com/zkep/my-geektime.git
+
+cd my-geektime/docker
+
+# 更新到最新的镜像
+docker pull zkep/mygeektime:latest
+
+docker-compose -f docker-compose.yml up -d
+
+MAC-M 系列
+git clone https://github.com/zkep/my-geektime.git
+
+cd my-geektime/docker
+
+# 更新到最新的镜像
+docker pull zkep/mygeektime:latest
+
+docker-compose -f docker-compose.yml up -d
+```
+
+浏览器访问: http://127.0.0.1:8090
