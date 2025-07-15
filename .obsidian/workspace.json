@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -294,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分布式/分布式id生成.md",
+                "file": "mysql/InnoDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "分布式id生成 的大纲"
+              "title": "InnoDB 的大纲"
             }
           },
           {
@@ -357,10 +357,11 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "fa0dacaa10020363",
+  "active": "b4c02a0958ef0732",
   "lastOpenFiles": [
-    "goredis/reader.md",
+    "git/git.md",
     "分布式/分布式id生成.md",
+    "goredis/reader.md",
     "WinOp/chocolatey.md",
     "WinOp/WSL.md",
     "WinOp/Traceroute.md",
@@ -387,7 +388,6 @@
     "The Go Programming Language Specification - The Go Programming Language.pdf",
     "OpenAi.md",
     "Docker.md",
-    "正则表达式.md",
     "Excalidraw/R语言.excalidraw",
     "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
     "Excalidraw/软工软件架构.excalidraw",
