@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "设计模式/结构型/享元模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "享元模式"
             }
           },
           {
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/InnoDB.md",
+                "file": "设计模式/结构型/享元模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "InnoDB 的大纲"
+              "title": "享元模式 的大纲"
             }
           },
           {
@@ -344,23 +344,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-language-learner:打开新词面板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "obsidian-language-learner:打开查词面板": true,
+      "obsidian-language-learner:打开统计": true,
+      "obsidian-language-learner:单词列表": true,
+      "darlal-switcher-plus:Open in Headings Mode": true,
+      "darlal-switcher-plus:Open Symbols for the active editor": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-language-learner:打开新词面板": true,
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b4c02a0958ef0732",
+  "active": "165270320d5c3637",
   "lastOpenFiles": [
-    "git/git.md",
+    "My code file.cpp",
+    "设计模式/结构型/享元模式.md",
     "分布式/分布式id生成.md",
+    "learnDoc/雪花算法生成 id.md",
+    "learnDoc/test.md",
+    "git/git.md",
+    "Linux/base/文件.md",
+    "mysql/InnoDB.md",
     "goredis/reader.md",
     "WinOp/chocolatey.md",
     "WinOp/WSL.md",
@@ -368,7 +374,6 @@
     "WinOp/FTP 命令行.md",
     "WinOp/cl.md",
     "WinOp/CMD命令行.md",
-    "learnDoc/雪花算法生成 id.md",
     "mysql/事务.md",
     "learnDoc",
     "毕设/miio.md",
@@ -381,20 +386,14 @@
     "毕设/稿.md",
     "设计模式/创建型模式/单例模式.md",
     "设计模式/策略模式.md",
-    "设计模式/创建型模式/工厂模式.md",
-    "bilibilitech/neighborhash/README.md",
     "cppreference/从零开始详细介绍CMake.pdf",
-    "ffmpeg.md",
     "The Go Programming Language Specification - The Go Programming Language.pdf",
-    "OpenAi.md",
-    "Docker.md",
     "Excalidraw/R语言.excalidraw",
     "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
     "Excalidraw/软工软件架构.excalidraw",
     "Excalidraw/碰检.excalidraw",
     "Excalidraw/基于符号表和立即数的计算器.excalidraw",
     "Excalidraw/非线性模型.excalidraw",
-    "Go/Go高级编程",
     "raft/images/raft-图1.png",
     "go-redis/example/otel/image/redis-trace.png",
     "go-redis/example/otel/image/metrics.png",
