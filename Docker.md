@@ -528,6 +528,18 @@ python -c "import mindspore;mindspore.set_context(device_target='GPU');mindspore
 
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240402183550.png)
 
+## Redis
+
+```sh
+docker run -itd --name redis-test -p 6379:6379 redis
+docker exec -it redis-test /bin/bash
+redis-cli
+
+[root@VM-94-62-tencentos fingerprint_extract]#  docker exec -it redis-test /bin/bash
+root@ed03f947bcda:/data# redis-cli
+127.0.0.1:6379> 
+```
+
 
 # BASH
 

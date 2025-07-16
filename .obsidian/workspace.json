@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/结构型/享元模式.md",
+                "file": "learnDOc/雪花算法生成 id.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "享元模式"
+              "title": "雪花算法生成 id"
             }
           },
           {
@@ -240,7 +240,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -249,8 +249,8 @@
             "state": {
               "type": "langr-search-panel",
               "state": {},
-              "icon": "book",
-              "title": "查词面板"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -285,7 +285,7 @@
               "type": "calendar",
               "state": {},
               "icon": "lucide-file",
-              "title": "插件不再活动"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -294,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/结构型/享元模式.md",
+                "file": "learnDOc/雪花算法生成 id.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "享元模式 的大纲"
+              "title": "Outline of 雪花算法生成 id"
             }
           },
           {
@@ -344,65 +344,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
-      "graph:查看关系图谱": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "obsidian-language-learner:打开查词面板": true,
-      "obsidian-language-learner:打开统计": true,
-      "obsidian-language-learner:单词列表": true,
-      "darlal-switcher-plus:Open in Headings Mode": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
-      "obsidian-language-learner:打开新词面板": true,
-      "vscode-editor:新建代码文件": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-language-learner:Open word search panel": false,
+      "obsidian-language-learner:Open new word panel": false,
+      "obsidian-language-learner:Open statistics": false,
+      "obsidian-language-learner:Data Panel": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "165270320d5c3637",
   "lastOpenFiles": [
-    "My code file.cpp",
+    "redis/cmd/key.md",
+    "redis/cmd",
+    "redis/go-redis/example/otel/README.md",
+    "redis/go-redis/README.md",
+    "redis/go-redis/scripts/tag.sh",
+    "redis/go-redis/scripts/release.sh",
+    "redis/go-redis/scripts/bump_deps.sh",
+    "redis/go-redis/scripts",
+    "redis/go-redis/internal/util/unsafe.go",
+    "redis/go-redis/internal/util/type.go",
+    "redis/go-redis/internal/util/strconv.go",
+    "redis/go-redis/internal/util/safe.go",
+    "redis/go-redis/internal/util",
+    "redis/go-redis/extra/redisprometheus/README.md",
+    "redis/go-redis/extra/redisotel/README.md",
+    "redis/go-redis/example/scan-struct/README.md",
+    "redis/go-redis/example/redis-bloom/README.md",
+    "redis/go-redis/example/otel/image/redis-trace.png",
+    "redis/go-redis/example/otel/image/metrics.png",
+    "redis/go-redis/example/lua-scripting/README.md",
+    "redis/go-redis/example/hll/README.md",
+    "redis/go-redis/example/del-keys-without-ttl/README.md",
+    "redis/go-redis/doctests/README.md",
+    "redis/go-redis/RELEASING.md",
+    "redis/go-redis/CONTRIBUTING.md",
+    "redis/go-redis/CHANGELOG.md",
+    "stl4go/README_zh.md",
+    "cloudwego/netpoll/README_CN.md",
+    "分布式/raft/raft-zh_cn.md",
+    "分布式/raft/images/raft-图9.png",
+    "分布式/raft/images/raft-图8.png",
+    "分布式/raft/images/raft-图7.png",
+    "分布式/raft/images/raft-图6.png",
+    "分布式/raft/images/raft-图5.png",
+    "分布式/raft/images/raft-图4.png",
+    "分布式/raft/images/raft-图3.png",
+    "分布式/raft/images/raft-图2.png",
+    "分布式/raft/README.md",
+    "Docker.md",
     "设计模式/结构型/享元模式.md",
-    "分布式/分布式id生成.md",
-    "learnDoc/雪花算法生成 id.md",
-    "learnDoc/test.md",
-    "git/git.md",
     "Linux/base/文件.md",
-    "mysql/InnoDB.md",
-    "goredis/reader.md",
-    "WinOp/chocolatey.md",
-    "WinOp/WSL.md",
-    "WinOp/Traceroute.md",
-    "WinOp/FTP 命令行.md",
-    "WinOp/cl.md",
-    "WinOp/CMD命令行.md",
-    "mysql/事务.md",
-    "learnDoc",
-    "毕设/miio.md",
-    "毕设/changeLog.md",
-    "毕设/优势.md",
-    "毕设/随想.md",
-    "毕设/手势识别.md",
-    "毕设/静态手势识别.md",
-    "毕设/接口设计.md",
-    "毕设/稿.md",
-    "设计模式/创建型模式/单例模式.md",
-    "设计模式/策略模式.md",
-    "cppreference/从零开始详细介绍CMake.pdf",
-    "The Go Programming Language Specification - The Go Programming Language.pdf",
-    "Excalidraw/R语言.excalidraw",
-    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
-    "Excalidraw/软工软件架构.excalidraw",
-    "Excalidraw/碰检.excalidraw",
-    "Excalidraw/基于符号表和立即数的计算器.excalidraw",
-    "Excalidraw/非线性模型.excalidraw",
-    "raft/images/raft-图1.png",
-    "go-redis/example/otel/image/redis-trace.png",
-    "go-redis/example/otel/image/metrics.png",
-    "highPAES/retry/assets/logo.png",
-    "三高系统/retry/assets/logo.png",
-    "retry/assets/logo.png",
-    "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
-    "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
-    "raft/images/raft-图9.png",
-    "raft/images/raft-图8.png"
+    "learnDOc/雪花算法生成 id.md",
+    "learnDOc/test.md",
+    "learnDOc/未命名.md",
+    "git/git.md",
+    "mysql/InnoDB.md"
   ]
 }
