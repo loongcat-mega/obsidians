@@ -328,6 +328,10 @@ head指向谁，谁就是当前分支
 
 `git branch`
 
+### 查看所有分支
+```
+git branch -a
+```
 ### 创建本地分支
 `git branch name`
 
@@ -346,6 +350,11 @@ head指向谁，谁就是当前分支
 ### 删除远端分支
 
 `git push origin --delete name`
+
+### 拉取远端分支到本地
+```
+git checkout -b 本地分支名 远程分支名
+```
 
 ### 分支合并
 `git merge name`

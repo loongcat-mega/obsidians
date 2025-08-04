@@ -528,11 +528,11 @@ python -c "import mindspore;mindspore.set_context(device_target='GPU');mindspore
 
 ![image.png](https://yaaame-1317851743.cos.ap-beijing.myqcloud.com/20240402183550.png)
 
-## Redis
+# Redis
 
 ```sh
-docker run -itd --name redis-test -p 6379:6379 redis
-docker exec -it redis-test /bin/bash
+docker run -itd --name myredis -p 6397:6379 redis --requirepass "mypassword"
+docker exec -it myredis /bin/bash
 redis-cli
 
 [root@VM-94-62-tencentos fingerprint_extract]#  docker exec -it redis-test /bin/bash
@@ -540,6 +540,14 @@ root@ed03f947bcda:/data# redis-cli
 127.0.0.1:6379> 
 ```
 
+# CVM
+
+
+```shell
+docker run -d  -p 58002:36000 -v /data/icode:/data/icode \-v /root/.cache/bazel:/root/.cache/bazel --cap-add=SYS_PTRACE --security-opt "seccomp=unconfined"  --name allinone fingerprint-extract-compile_image:latest
+
+docker run -d  -p 58009:36000 -v /data/icode:/data/icode \-v /root/.cache/bazel:/root/.cache/bazel --cap-add=SYS_PTRACE --security-opt "seccomp=unconfined"  --name compile_1.0.11 trpc-cpp-compile_1.0.11_image:latest
+```
 
 # BASH
 

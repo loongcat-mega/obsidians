@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learnDOc/雪花算法生成 id.md",
+                "file": "redis/cmd/ZSET.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "雪花算法生成 id"
+              "title": "ZSET"
+            }
+          },
+          {
+            "id": "0e3a40f43d5fd32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gcc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "gcc"
+            }
+          },
+          {
+            "id": "dce6d47eb93f4f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/base/文件.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "文件"
+            }
+          },
+          {
+            "id": "8d89336249f4eba3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/utils/ncdu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ncdu"
             }
           },
           {
@@ -133,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "毕设/changeLog.md",
+                "file": "Linux/GNU/gdb.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +220,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "changeLog"
+              "title": "gdb"
+            }
+          },
+          {
+            "id": "2fda1bc9093f0dc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/sys/coredump.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "coredump"
+            }
+          },
+          {
+            "id": "7ec8cb3e79f39b34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/GNU/GCC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GCC"
+            }
+          },
+          {
+            "id": "094f016e2e3fa785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据迁移.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "数据迁移"
             }
           },
           {
@@ -174,33 +318,9 @@
               "icon": "lucide-file",
               "title": "分布式id生成"
             }
-          },
-          {
-            "id": "84d54c99c6a985d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "设计模式/创建型模式/单例模式.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "单例模式"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -219,7 +339,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "explicit",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -240,7 +360,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -294,13 +414,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learnDOc/雪花算法生成 id.md",
+                "file": "数据迁移.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 雪花算法生成 id"
+              "title": "数据迁移 的大纲"
             }
           },
           {
@@ -344,66 +464,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "obsidian-language-learner:Open word search panel": false,
-      "obsidian-language-learner:Open new word panel": false,
-      "obsidian-language-learner:Open statistics": false,
-      "obsidian-language-learner:Data Panel": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "vscode-editor:新建代码文件": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "vscode-editor:Create Code File": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "165270320d5c3637",
+  "active": "094f016e2e3fa785",
   "lastOpenFiles": [
-    "redis/cmd/key.md",
-    "redis/cmd",
-    "redis/go-redis/example/otel/README.md",
-    "redis/go-redis/README.md",
-    "redis/go-redis/scripts/tag.sh",
-    "redis/go-redis/scripts/release.sh",
-    "redis/go-redis/scripts/bump_deps.sh",
-    "redis/go-redis/scripts",
-    "redis/go-redis/internal/util/unsafe.go",
-    "redis/go-redis/internal/util/type.go",
-    "redis/go-redis/internal/util/strconv.go",
-    "redis/go-redis/internal/util/safe.go",
-    "redis/go-redis/internal/util",
-    "redis/go-redis/extra/redisprometheus/README.md",
-    "redis/go-redis/extra/redisotel/README.md",
-    "redis/go-redis/example/scan-struct/README.md",
-    "redis/go-redis/example/redis-bloom/README.md",
-    "redis/go-redis/example/otel/image/redis-trace.png",
-    "redis/go-redis/example/otel/image/metrics.png",
-    "redis/go-redis/example/lua-scripting/README.md",
-    "redis/go-redis/example/hll/README.md",
-    "redis/go-redis/example/del-keys-without-ttl/README.md",
-    "redis/go-redis/doctests/README.md",
-    "redis/go-redis/RELEASING.md",
-    "redis/go-redis/CONTRIBUTING.md",
-    "redis/go-redis/CHANGELOG.md",
-    "stl4go/README_zh.md",
-    "cloudwego/netpoll/README_CN.md",
-    "分布式/raft/raft-zh_cn.md",
-    "分布式/raft/images/raft-图9.png",
-    "分布式/raft/images/raft-图8.png",
-    "分布式/raft/images/raft-图7.png",
-    "分布式/raft/images/raft-图6.png",
-    "分布式/raft/images/raft-图5.png",
-    "分布式/raft/images/raft-图4.png",
-    "分布式/raft/images/raft-图3.png",
-    "分布式/raft/images/raft-图2.png",
-    "分布式/raft/README.md",
+    "Linux/GNU/GCC.md",
+    "数据迁移.md",
+    "gcc.md",
+    "代码质量管理.md",
     "Docker.md",
-    "设计模式/结构型/享元模式.md",
-    "Linux/base/文件.md",
-    "learnDOc/雪花算法生成 id.md",
-    "learnDOc/test.md",
-    "learnDOc/未命名.md",
-    "git/git.md",
-    "mysql/InnoDB.md"
+    "Linux/base/lsof.md",
+    "Linux/sys/coredump.md",
+    "Linux/GNU/gdb.md",
+    "learnDoc/未命名.md",
+    "learnDoc/雪花算法生成 id.md",
+    "learnDoc/冒烟测试.md",
+    "redis/分布式限流桶.md",
+    "proxy/proxy.md",
+    "cppreference/现代c++核心特性解析/chap34 基础特性的其他优化.md",
+    "Linux/ce/逆向.md",
+    "Linux/ce/tools.md",
+    "Linux/ce/r2.md",
+    "毕设/changeLog.md",
+    "Algorithm/数据结构/哈希表/哈希表统计数组中元素重复次数.md",
+    "Algorithm/数据结构/队列与栈/栈结构实现队列结构.md",
+    "Algorithm/数据结构/队列与栈/队列结构实现栈结构.md",
+    "Algorithm/高精度/高精度乘法(模拟二进制乘法).md",
+    "Algorithm/高精度/高精度除法(保留小数).md",
+    "视频转码/cv/图像缩放.md",
+    "视频转码/cv/图像锐化.md",
+    "视频转码/cv/图像平均.md",
+    "cloudwego/netpoll/connection.go",
+    "cloudwego/netpoll/internal/runner/runner_test.go",
+    "cloudwego/netpoll/internal/runner/runner.go",
+    "未命名.nssyncsc",
+    "learnDoc",
+    "cppreference/从零开始详细介绍CMake.pdf",
+    "The Go Programming Language Specification - The Go Programming Language.pdf",
+    "Excalidraw/R语言.excalidraw",
+    "Excalidraw/Drawing 2024-03-17 16.45.55.excalidraw",
+    "Excalidraw/软工软件架构.excalidraw",
+    "raft/images/raft-图1.png",
+    "go-redis/example/otel/image/redis-trace.png",
+    "go-redis/example/otel/image/metrics.png",
+    "highPAES/retry/assets/logo.png",
+    "三高系统/retry/assets/logo.png",
+    "retry/assets/logo.png",
+    "ffmpeg_develop_doc/FFmpeg源代码结构图 - 编码.jpg",
+    "ffmpegDev/FFmpeg源代码结构图 - 编码.jpg",
+    "raft/images/raft-图9.png",
+    "raft/images/raft-图8.png"
   ]
 }
